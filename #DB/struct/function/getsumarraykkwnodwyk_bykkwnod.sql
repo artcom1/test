@@ -1,4 +1,4 @@
-CREATE FUNCTION getsumarraykkwnodwyk_bykkwnod(integer) RETURNS numeric[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

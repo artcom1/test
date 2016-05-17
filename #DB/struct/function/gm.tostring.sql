@@ -1,4 +1,4 @@
-CREATE FUNCTION tostring(anyelement, boolean DEFAULT false) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT (CASE WHEN $2=TRUE THEN quote_nullable($1) ELSE COALESCE($1::text,'NULL') END);
@@ -8,7 +8,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION tostring(text, anyarray, boolean DEFAULT false) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -24,7 +24,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION tostring(text, anynonarray, boolean DEFAULT false) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

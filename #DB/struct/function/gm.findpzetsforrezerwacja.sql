@@ -1,4 +1,4 @@
-CREATE FUNCTION findpzetsforrezerwacja(numeric, public.tg_ruchy, integer DEFAULT NULL::integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

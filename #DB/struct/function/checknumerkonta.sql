@@ -1,4 +1,4 @@
-CREATE FUNCTION checknumerkonta(numer text, zerosto integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
  BEGIN

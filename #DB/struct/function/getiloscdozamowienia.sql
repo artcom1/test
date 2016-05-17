@@ -1,4 +1,4 @@
-CREATE FUNCTION getiloscdozamowienia(numeric, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -19,7 +19,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION getiloscdozamowienia(numeric, numeric, boolean) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION updaterozrachunkikh(integer, integer, integer, numeric, boolean, date, date, integer, mpq, numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_wz_inner(dodaj_wz_type, dodaj_wz_rettype, public.tg_partie, numeric, numeric DEFAULT 0, integer DEFAULT NULL::integer, integer DEFAULT NULL::integer) RETURNS dodaj_wz_rettype
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 --WSPOK

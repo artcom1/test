@@ -1,4 +1,4 @@
-CREATE FUNCTION updatewymiaryobroty(integer, integer, integer, numeric, numeric, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

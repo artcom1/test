@@ -1,4 +1,4 @@
-CREATE FUNCTION resynccenajmpokor(idtrans integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 ---WSPOK

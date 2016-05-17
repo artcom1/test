@@ -1,4 +1,4 @@
-CREATE FUNCTION on_a_iud_dyspozycjamag_child() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

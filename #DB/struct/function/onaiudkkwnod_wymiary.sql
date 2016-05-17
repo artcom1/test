@@ -1,4 +1,4 @@
-CREATE FUNCTION onaiudkkwnod_wymiary() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION ispartiaequal(public.tg_partie, public.tg_partie, integer, integer DEFAULT NULL::integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

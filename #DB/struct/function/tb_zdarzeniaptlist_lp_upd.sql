@@ -1,4 +1,4 @@
-CREATE FUNCTION tb_zdarzeniaptlist_lp_upd() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

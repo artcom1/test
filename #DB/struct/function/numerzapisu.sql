@@ -1,4 +1,4 @@
-CREATE FUNCTION numerzapisu(text, integer, integer, integer, smallint) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

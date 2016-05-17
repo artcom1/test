@@ -1,4 +1,4 @@
-CREATE FUNCTION min(date, date) RETURNS date
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -14,7 +14,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION min(numeric, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE
@@ -35,7 +35,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION min(timestamp without time zone, timestamp without time zone) RETURNS timestamp without time zone
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_rezerwacjea_partia(integer, integer, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION dodaj_rezerwacjea_partia(integer, integer, integer, integer, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -22,7 +22,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION dodaj_rezerwacjea_partia(integer, integer, integer, integer, numeric, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

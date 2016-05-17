@@ -1,4 +1,4 @@
-CREATE FUNCTION inwwm_addinwentaryzacjamm(idtrans integer, idmiejsca integer, idpartiipz integer, deltailoscf numeric, iloscfcomp numeric DEFAULT NULL::numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

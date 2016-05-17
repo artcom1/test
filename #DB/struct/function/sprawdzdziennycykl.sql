@@ -1,4 +1,4 @@
-CREATE FUNCTION sprawdzdziennycykl(date, date, date, date) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

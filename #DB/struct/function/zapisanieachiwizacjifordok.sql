@@ -1,4 +1,4 @@
-CREATE FUNCTION zapisanieachiwizacjifordok(integer, text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION on_b_iud_kkwheadrozm() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

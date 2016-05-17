@@ -1,4 +1,4 @@
-CREATE FUNCTION createinfo(public.tg_transelem, boolean, boolean) RETURNS tb_vat
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

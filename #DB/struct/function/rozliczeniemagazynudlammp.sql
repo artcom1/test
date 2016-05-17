@@ -1,4 +1,4 @@
-CREATE FUNCTION rozliczeniemagazynudlammp(numeric, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

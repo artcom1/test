@@ -1,4 +1,4 @@
-CREATE FUNCTION oniuzlecenie() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 

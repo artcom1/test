@@ -1,4 +1,4 @@
-CREATE FUNCTION updatekursdok(integer, integer, mpq) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

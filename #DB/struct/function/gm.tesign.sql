@@ -1,4 +1,4 @@
-CREATE FUNCTION tesign(_new2flaga integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $_$
  SELECT (CASE WHEN ($1&(1<<9))<>0 THEN -1 ELSE 1 END)

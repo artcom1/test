@@ -1,4 +1,4 @@
-CREATE FUNCTION reinitbackordertranelem(_idelem integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

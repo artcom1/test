@@ -1,4 +1,4 @@
-CREATE FUNCTION minimalnawielkoscmozliwejprodukcjiwgrec(integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -40,7 +40,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION minimalnawielkoscmozliwejprodukcjiwgrec(integer, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

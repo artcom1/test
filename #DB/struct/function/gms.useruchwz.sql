@@ -1,4 +1,4 @@
-CREATE FUNCTION useruchwz(simid integer, idtowmag integer, idmiejsca integer, idpartiipz integer, idruchupz integer, idruchuwz integer, ilosc numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

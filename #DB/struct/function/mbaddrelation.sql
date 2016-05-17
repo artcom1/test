@@ -1,4 +1,4 @@
-CREATE FUNCTION mbaddrelation(integer, integer, text, integer, oid, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

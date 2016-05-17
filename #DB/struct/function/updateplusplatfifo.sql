@@ -1,4 +1,4 @@
-CREATE FUNCTION updateplusplatfifo(integer, integer, numeric, numeric, integer, date) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -48,7 +48,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION updateplusplatfifo(integer, integer, numeric, numeric, integer, date, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

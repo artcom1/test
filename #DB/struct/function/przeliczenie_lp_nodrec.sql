@@ -1,4 +1,4 @@
-CREATE FUNCTION przeliczenie_lp_nodrec(integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

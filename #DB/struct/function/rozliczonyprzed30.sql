@@ -1,4 +1,4 @@
-CREATE FUNCTION rozliczonyprzed30(date, date) RETURNS double precision
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

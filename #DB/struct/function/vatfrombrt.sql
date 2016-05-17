@@ -1,4 +1,4 @@
-CREATE FUNCTION vatfrombrt(numeric, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

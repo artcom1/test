@@ -1,4 +1,4 @@
-CREATE FUNCTION odnotujzmianecenyzakupu(idtowaru integer, idtrans integer, typ smallint, cena numeric, waluta integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION isrezerwacjalekkanull(integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT (isRezerwacjaLekka($1) AND (($1&(1<<26))<>0));

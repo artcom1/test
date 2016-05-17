@@ -1,4 +1,4 @@
-CREATE FUNCTION tegetprocentodliczeniavat(procodlvat numeric, tel_newflaga integer, tel_new2flaga integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $_$
  SELECT (CASE WHEN (($2>>14)&3)=0 THEN 0                                       --- Nie odliczamy VAT

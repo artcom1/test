@@ -1,4 +1,4 @@
-CREATE FUNCTION updaterozrachunkikompensaty(integer, integer, numeric, mpq, integer, integer, date, integer, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -16,7 +16,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION updaterozrachunkikompensaty(integer, integer, numeric, mpq, integer, integer, date, integer, boolean, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

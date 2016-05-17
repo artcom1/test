@@ -1,4 +1,4 @@
-CREATE FUNCTION simplyrozlicz(integer, integer, numeric, numeric, integer DEFAULT 0) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

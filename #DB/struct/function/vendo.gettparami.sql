@@ -1,4 +1,4 @@
-CREATE FUNCTION gettparami(text, integer DEFAULT NULL::integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT COALESCE(vendo.getTParam($1)::int,$2)

@@ -1,4 +1,4 @@
-CREATE FUNCTION torezdate(date, integer) RETURNS date
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

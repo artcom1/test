@@ -1,4 +1,4 @@
-CREATE FUNCTION findorcreatepartialikeother_withsposobpakowania(wzor public.tg_partie, idsposobunew integer, savenewtodbifnotexists boolean DEFAULT true) RETURNS public.tg_partie
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

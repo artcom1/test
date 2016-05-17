@@ -1,4 +1,4 @@
-CREATE FUNCTION wylicziloscwykonaniamrp(numeric, numeric, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---funckja wylicza ilosc wykonanych operacji z wykonania mrp, bierze pod uwage czy operacja ma rejestracje procentowa czy nie

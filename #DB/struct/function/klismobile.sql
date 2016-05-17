@@ -1,4 +1,4 @@
-CREATE FUNCTION klismobile(integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

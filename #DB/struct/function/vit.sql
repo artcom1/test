@@ -1,4 +1,4 @@
-CREATE FUNCTION vit(boolean, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

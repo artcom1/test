@@ -1,4 +1,4 @@
-CREATE FUNCTION zmienpartie(integer, integer, numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---WSPOK

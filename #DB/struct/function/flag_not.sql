@@ -1,4 +1,4 @@
-CREATE FUNCTION flag_not(a integer[]) RETURNS integer[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

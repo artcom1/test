@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_wz_wtex(dodaj_wz_type, boolean DEFAULT false) RETURNS dodaj_wz_rettype
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---WSPOK

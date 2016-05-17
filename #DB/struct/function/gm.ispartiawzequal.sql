@@ -1,4 +1,4 @@
-CREATE FUNCTION ispartiawzequal(public.tg_partie, public.tg_partie, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

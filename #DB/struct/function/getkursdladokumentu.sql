@@ -1,4 +1,4 @@
-CREATE FUNCTION getkursdladokumentu(integer, integer) RETURNS mpq
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql STABLE
     AS $_$
 DECLARE

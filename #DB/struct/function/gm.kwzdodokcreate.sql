@@ -1,4 +1,4 @@
-CREATE FUNCTION kwzdodokcreate(_idtrans integer, _idkor integer, _movekgo boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

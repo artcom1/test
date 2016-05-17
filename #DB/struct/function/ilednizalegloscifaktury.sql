@@ -1,4 +1,4 @@
-CREATE FUNCTION ilednizalegloscifaktury(integer, integer, date) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 
@@ -16,7 +16,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION ilednizalegloscifaktury(numeric, numeric, date) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

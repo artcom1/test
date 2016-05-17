@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_nkwz_wtex(integer, numeric, integer, integer, integer, integer, integer, integer, date, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---WSPOK

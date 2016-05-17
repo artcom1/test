@@ -1,4 +1,4 @@
-CREATE FUNCTION podajodsetki(numeric, date, date, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION ptowar_dodajwz(idtowmag integer, iloscfold numeric, wartosczakupuold numeric, telsprzedazold integer, iloscfnew numeric, telsprzedaznew integer, alwaysusenewvalue numeric DEFAULT NULL::numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

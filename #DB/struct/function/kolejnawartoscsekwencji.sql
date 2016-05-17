@@ -1,4 +1,4 @@
-CREATE FUNCTION kolejnawartoscsekwencji(integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -20,7 +20,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION kolejnawartoscsekwencji(integer, text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

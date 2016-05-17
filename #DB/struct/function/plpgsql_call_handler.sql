@@ -1,3 +1,3 @@
-CREATE FUNCTION plpgsql_call_handler() RETURNS language_handler
+CREATE OR REPLACE FUNCTION 
     LANGUAGE c
     AS '$libdir/plpgsql', 'plpgsql_call_handler';

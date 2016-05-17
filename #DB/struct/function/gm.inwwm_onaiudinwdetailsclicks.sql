@@ -1,4 +1,4 @@
-CREATE FUNCTION inwwm_onaiudinwdetailsclicks() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

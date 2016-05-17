@@ -1,4 +1,4 @@
-CREATE FUNCTION doskojamortyzacjaex(integer, integer, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

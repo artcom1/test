@@ -1,4 +1,4 @@
-CREATE FUNCTION getidpaczekpodrzednych(integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

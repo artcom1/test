@@ -1,4 +1,4 @@
-CREATE FUNCTION kkwnodobliczilosc_array(numeric[], numeric[], numeric[], numeric, numeric, integer, integer, numeric) RETURNS numeric[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION rpkoszty(numeric, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

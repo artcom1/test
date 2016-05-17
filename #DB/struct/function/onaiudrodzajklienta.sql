@@ -1,4 +1,4 @@
-CREATE FUNCTION onaiudrodzajklienta() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

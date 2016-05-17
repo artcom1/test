@@ -1,4 +1,4 @@
-CREATE FUNCTION sortkonta(text, integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION sortkonta(text, integer, text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

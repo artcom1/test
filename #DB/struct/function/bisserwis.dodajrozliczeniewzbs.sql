@@ -1,4 +1,4 @@
-CREATE FUNCTION dodajrozliczeniewzbs(integer, integer, integer, integer, numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

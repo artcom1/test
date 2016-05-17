@@ -1,4 +1,4 @@
-CREATE FUNCTION correctmm(idtep integer, seqid integer DEFAULT NULL::integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 ---WSPOK

@@ -1,4 +1,4 @@
-CREATE FUNCTION pushrezstack(integer, push_rezstack_type) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

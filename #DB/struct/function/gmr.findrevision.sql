@@ -1,4 +1,4 @@
-CREATE FUNCTION findrevision(idsposobu integer, idtowarundx integer, createifnotexists boolean DEFAULT false) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

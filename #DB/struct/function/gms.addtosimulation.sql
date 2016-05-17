@@ -1,4 +1,4 @@
-CREATE FUNCTION addtosimulation(simid integer, idtowmag integer, idmiejsca integer, idpartiipz integer, _ilosc numeric, idruchupz integer DEFAULT NULL::integer, qdiv text DEFAULT NULL::text) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

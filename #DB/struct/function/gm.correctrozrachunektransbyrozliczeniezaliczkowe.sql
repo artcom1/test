@@ -1,4 +1,4 @@
-CREATE FUNCTION correctrozrachunektransbyrozliczeniezaliczkowe(kwotawal numeric, idwaluty integer, idtrans integer, rrno integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

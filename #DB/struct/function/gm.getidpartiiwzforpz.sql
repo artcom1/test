@@ -1,4 +1,4 @@
-CREATE FUNCTION getidpartiiwzforpz(integer, boolean DEFAULT true) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

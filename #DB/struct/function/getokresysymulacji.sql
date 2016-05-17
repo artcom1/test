@@ -1,4 +1,4 @@
-CREATE FUNCTION getokresysymulacji(integer) RETURNS TABLE(id integer, nazwa text, data_od timestamp without time zone, data_do timestamp without time zone)
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

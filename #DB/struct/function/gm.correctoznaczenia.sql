@@ -1,4 +1,4 @@
-CREATE FUNCTION correctoznaczenia(oznid bigint DEFAULT topoznaczruchn()) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 ----Funkcja moze byc wykorzystana wtedy kiedy oznaczenie zrobilismy poprzez wpis wszystkich potencjalnych rekordow

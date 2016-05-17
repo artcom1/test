@@ -1,4 +1,4 @@
-CREATE FUNCTION uzupelnijmiesiac(date) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -18,7 +18,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION uzupelnijmiesiac(double precision) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -34,7 +34,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION uzupelnijmiesiac(text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION ma(numeric, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN
@@ -14,7 +14,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION ma(numeric, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

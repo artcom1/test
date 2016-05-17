@@ -1,4 +1,4 @@
-CREATE FUNCTION uaktualnieniepraczmrp_tpz(integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

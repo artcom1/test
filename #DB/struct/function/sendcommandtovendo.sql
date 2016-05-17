@@ -1,4 +1,4 @@
-CREATE FUNCTION sendcommandtovendo(_command text, _commandvalue text, _winusersid text, _pracownikid integer, _sendtofirstonly boolean) RETURNS TABLE(sessionid integer)
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 	BEGIN

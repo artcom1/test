@@ -1,4 +1,4 @@
-CREATE FUNCTION flc_updatecounter(b tm_flagcounterbase, delta integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE
@@ -37,7 +37,7 @@ $$;
 --
 --
 
-CREATE FUNCTION flc_updatecounter(b tm_flagcounterbase, delta numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $$
  SELECT gm.flc_updatecounter(b,delta::int);

@@ -1,4 +1,4 @@
-CREATE FUNCTION kkwnodobliczilosc(numeric, numeric, numeric, numeric, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE
@@ -33,7 +33,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION kkwnodobliczilosc(numeric, numeric, numeric, numeric, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

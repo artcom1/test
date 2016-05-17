@@ -1,4 +1,4 @@
-CREATE FUNCTION sum_date(double precision, date, date, date) RETURNS double precision
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -18,7 +18,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION sum_date(numeric, date, date, date) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

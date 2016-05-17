@@ -1,4 +1,4 @@
-CREATE FUNCTION nextnumeruniv(_rodzaj integer, _seria character varying, _infix character varying, _rok character varying, _centrala integer, _byrok boolean, _byseria boolean, _byinfix boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

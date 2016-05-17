@@ -1,4 +1,4 @@
-CREATE FUNCTION simulate_wz(dodaj_wz_type, public.tg_partie, tm_simulation, numeric, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

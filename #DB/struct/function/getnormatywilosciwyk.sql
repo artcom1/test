@@ -1,4 +1,4 @@
-CREATE FUNCTION getnormatywilosciwyk(_wydajnosc numeric, _tpj numeric, _czas numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE
@@ -17,7 +17,7 @@ $$;
 --
 --
 
-CREATE FUNCTION getnormatywilosciwyk(_wydajnosc numeric, _tpj numeric, _czasstart timestamp without time zone, _czasstop timestamp without time zone) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

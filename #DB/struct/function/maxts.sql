@@ -1,4 +1,4 @@
-CREATE FUNCTION maxts(timestamp without time zone, timestamp without time zone) RETURNS timestamp without time zone
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

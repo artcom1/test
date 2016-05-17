@@ -1,4 +1,4 @@
-CREATE FUNCTION seria2_jp(text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

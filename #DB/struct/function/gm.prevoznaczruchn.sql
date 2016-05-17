@@ -1,4 +1,4 @@
-CREATE FUNCTION prevoznaczruchn(bigint DEFAULT topoznaczruchn()) RETURNS bigint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql STABLE
     AS $_$
  --- Funkcja zwraca SETID dla poprzedniego poziomu

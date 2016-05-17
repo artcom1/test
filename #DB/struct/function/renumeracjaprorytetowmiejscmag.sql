@@ -1,4 +1,4 @@
-CREATE FUNCTION renumeracjaprorytetowmiejscmag() RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

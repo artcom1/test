@@ -1,4 +1,4 @@
-CREATE FUNCTION addorder(scid integer, otype integer, ono integer, ov integer, o tm_ilosci, ilosc numeric DEFAULT 0, qdiv text DEFAULT NULL::text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN
@@ -38,7 +38,7 @@ $$;
 --
 --
 
-CREATE FUNCTION addorder(scid integer, otype integer, ono integer, ov integer, o tm_ilosci, ovo integer, oo tm_ilosci, ilosc numeric DEFAULT 0, qdiv text DEFAULT NULL::text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

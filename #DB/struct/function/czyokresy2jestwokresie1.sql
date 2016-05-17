@@ -1,4 +1,4 @@
-CREATE FUNCTION czyokresy2jestwokresie1(time without time zone, time without time zone, time without time zone, time without time zone) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

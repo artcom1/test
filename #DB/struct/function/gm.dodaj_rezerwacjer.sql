@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_rezerwacjer(integer, integer, integer, integer, date, numeric, integer, boolean) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

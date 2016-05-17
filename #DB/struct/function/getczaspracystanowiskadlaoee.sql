@@ -1,4 +1,4 @@
-CREATE FUNCTION getczaspracystanowiskadlaoee(integer, timestamp with time zone, timestamp with time zone, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

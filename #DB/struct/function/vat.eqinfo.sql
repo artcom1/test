@@ -1,4 +1,4 @@
-CREATE FUNCTION eqinfo(tb_vat, tb_vat) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $_$
  SELECT ($1.tr_idtrans=$2.tr_idtrans) AND

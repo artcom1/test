@@ -1,4 +1,4 @@
-CREATE FUNCTION rpprodukcjaprzyjeta(numeric, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

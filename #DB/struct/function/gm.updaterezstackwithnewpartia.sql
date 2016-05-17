@@ -1,4 +1,4 @@
-CREATE FUNCTION updaterezstackwithnewpartia(idruchu integer, idpartiiold integer, idpartiinew integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

@@ -1,4 +1,4 @@
-CREATE FUNCTION getwartoscdowolna(integer, integer, integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

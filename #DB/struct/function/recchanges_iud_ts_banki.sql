@@ -1,4 +1,4 @@
-CREATE FUNCTION recchanges_iud_ts_banki() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

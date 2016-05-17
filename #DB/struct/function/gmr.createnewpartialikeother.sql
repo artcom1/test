@@ -1,4 +1,4 @@
-CREATE FUNCTION createnewpartialikeother(wzor public.tg_partie, idtowarunew integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

@@ -1,4 +1,4 @@
-CREATE FUNCTION rebuildwspolczynnikitechnologii(integer, integer, numeric, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

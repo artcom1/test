@@ -1,4 +1,4 @@
-CREATE FUNCTION onbiudzdarzenialp() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

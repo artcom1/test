@@ -1,4 +1,4 @@
-CREATE FUNCTION text_reverse(txt text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

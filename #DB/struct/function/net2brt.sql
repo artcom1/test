@@ -1,4 +1,4 @@
-CREATE FUNCTION net2brt(_value numeric, _stawka numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $_$
 SELECT $1+$1*$2/100;

@@ -1,4 +1,4 @@
-CREATE FUNCTION wn(numeric, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN
@@ -14,7 +14,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION wn(numeric, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

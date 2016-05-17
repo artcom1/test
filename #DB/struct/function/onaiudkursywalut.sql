@@ -1,4 +1,4 @@
-CREATE FUNCTION onaiudkursywalut() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

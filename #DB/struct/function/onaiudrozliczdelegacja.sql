@@ -1,4 +1,4 @@
-CREATE FUNCTION onaiudrozliczdelegacja() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

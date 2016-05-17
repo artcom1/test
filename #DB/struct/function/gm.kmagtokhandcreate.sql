@@ -1,4 +1,4 @@
-CREATE FUNCTION kmagtokhandcreate(_idtrans integer, _idkor integer, _movekgo boolean, _dlasprzedazy integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

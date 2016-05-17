@@ -1,4 +1,4 @@
-CREATE FUNCTION renumeracjapelementowzestawu() RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION on_b_iud_kkwnodrec_magazynowka() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

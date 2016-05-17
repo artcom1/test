@@ -1,4 +1,4 @@
-CREATE FUNCTION minimalnawielkoscmozliwejkompletacjiwgzestawu(integer, integer, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

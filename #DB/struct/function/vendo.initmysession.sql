@@ -1,4 +1,4 @@
-CREATE FUNCTION initmysession() RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

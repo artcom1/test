@@ -1,4 +1,4 @@
-CREATE FUNCTION getprzeliczonewymiaryilosc(integer, mpq, boolean) RETURNS record
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION tozdarzenienumer(integer, integer, integer, text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

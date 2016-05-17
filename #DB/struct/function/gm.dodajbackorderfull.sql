@@ -1,4 +1,4 @@
-CREATE FUNCTION dodajbackorderfull(_idelemsrc integer, _idtowmag integer, _ilosc numeric, _isprzychod boolean, _powod integer, _zrezerwacja boolean, _idtrans integer, _przeliczrez boolean, _data date, _zlecenie integer, _iloscrez numeric, _idpartii integer, _idskojzam integer, _new2flaga integer, _rezlekka boolean DEFAULT false) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

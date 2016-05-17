@@ -1,4 +1,4 @@
-CREATE FUNCTION onaiudpartetm_rozm() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN 

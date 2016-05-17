@@ -1,4 +1,4 @@
-CREATE FUNCTION maxdaten(date, date) RETURNS date
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

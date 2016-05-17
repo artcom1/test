@@ -1,4 +1,4 @@
-CREATE FUNCTION markanyoznaczonyruchn(setid bigint, domark boolean, useprevious boolean DEFAULT false) RETURNS bigint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 ---Funkcja ustawia informacje o tym ze wykorzystano funkcje oznaczania partii

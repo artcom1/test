@@ -1,4 +1,4 @@
-CREATE FUNCTION saldokpo(numeric, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

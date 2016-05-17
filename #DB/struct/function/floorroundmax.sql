@@ -1,4 +1,4 @@
-CREATE FUNCTION floorroundmax(numeric, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION floorroundmax(mpq, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

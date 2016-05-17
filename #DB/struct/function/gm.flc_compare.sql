@@ -1,4 +1,4 @@
-CREATE FUNCTION flc_compare(x tm_flagcounterbase, y tm_flagcounterbase) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $$
  SELECT x IS NOT DISTINCT FROM y;

@@ -1,4 +1,4 @@
-CREATE FUNCTION checktranselem(idelem integer, throwexception boolean DEFAULT true) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

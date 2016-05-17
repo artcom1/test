@@ -1,4 +1,4 @@
-CREATE FUNCTION getoid2idrecordu(integer, text, text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

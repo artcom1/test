@@ -1,4 +1,4 @@
-CREATE FUNCTION aktopdomspinaczakkwnodpousunieciu(integer, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION doescapezdarzeniatriggers(integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT vendo.setTParamI('RETZDARZENIETRIGGERS',vendo.getTParamI('RETZDARZENIETRIGGERS',0)+$1)>0;

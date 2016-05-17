@@ -1,4 +1,4 @@
-CREATE FUNCTION przeliczenie_tech_rozm(_ttw_idtowaru integer, rmr_idrodzajuold integer, rmr_idrodzajunew integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

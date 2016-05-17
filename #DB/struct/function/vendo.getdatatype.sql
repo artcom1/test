@@ -1,4 +1,4 @@
-CREATE FUNCTION getdatatype(text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

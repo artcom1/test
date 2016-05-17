@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_pz_univ(_ilosc numeric, _idelem integer, _idtrans integer, _idtowaru integer, _idtowmag integer, _idmag integer, _idklienta integer, _data date, _wartosc numeric, _iloscrez numeric, _isapz boolean, _idpartii integer, _cenajmcrs numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE 

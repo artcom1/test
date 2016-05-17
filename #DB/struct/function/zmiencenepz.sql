@@ -1,4 +1,4 @@
-CREATE FUNCTION zmiencenepz(integer, numeric, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -17,7 +17,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION zmiencenepz(integer, numeric, numeric, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

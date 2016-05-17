@@ -1,4 +1,4 @@
-CREATE FUNCTION przeliczplanst(integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ----funkcja przelicza wartosci bierzace po amortyzacji danego planu dla podanego srodka trwalego
@@ -73,7 +73,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION przeliczplanst(integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ----funkcja przelicza wartosci bierzace po amortyzacji danego planu dla podanego srodka trwalego

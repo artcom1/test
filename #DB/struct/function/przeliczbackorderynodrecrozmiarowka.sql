@@ -1,4 +1,4 @@
-CREATE FUNCTION przeliczbackorderynodrecrozmiarowka(tr_nodrecrozmiarowka) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

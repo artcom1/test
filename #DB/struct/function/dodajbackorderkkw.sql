@@ -1,4 +1,4 @@
-CREATE FUNCTION dodajbackorderkkw(integer, integer, numeric, integer, date, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -40,7 +40,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION dodajbackorderkkw(integer, integer, numeric, integer, date, integer, integer[], integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

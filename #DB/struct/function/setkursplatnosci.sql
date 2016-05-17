@@ -1,4 +1,4 @@
-CREATE FUNCTION setkursplatnosci(integer, mpq, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

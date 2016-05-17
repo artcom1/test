@@ -1,4 +1,4 @@
-CREATE FUNCTION getnotifies(integer) RETURNS SETOF notifies
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION subinfo(tb_vat, tb_vat) RETURNS tb_vat
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

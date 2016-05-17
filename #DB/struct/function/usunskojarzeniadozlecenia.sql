@@ -1,4 +1,4 @@
-CREATE FUNCTION usunskojarzeniadozlecenia(integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---argumentem zlecenia do ktorego maja byc usuniete skojarzenia, 

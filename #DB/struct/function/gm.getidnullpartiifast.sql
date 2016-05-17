@@ -1,4 +1,4 @@
-CREATE FUNCTION getidnullpartiifast(integer, integer DEFAULT 1) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

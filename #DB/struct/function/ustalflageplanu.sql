@@ -1,4 +1,4 @@
-CREATE FUNCTION ustalflageplanu(integer, integer, integer, integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

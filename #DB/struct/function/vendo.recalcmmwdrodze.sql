@@ -1,4 +1,4 @@
-CREATE FUNCTION recalcmmwdrodze() RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

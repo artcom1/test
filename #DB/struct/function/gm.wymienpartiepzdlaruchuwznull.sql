@@ -1,4 +1,4 @@
-CREATE FUNCTION wymienpartiepzdlaruchuwznull(idruchu1 integer, idruchu2 integer, ilosc numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

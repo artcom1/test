@@ -1,4 +1,4 @@
-CREATE FUNCTION flag_set(flag integer[], index integer, onoff boolean) RETURNS integer[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

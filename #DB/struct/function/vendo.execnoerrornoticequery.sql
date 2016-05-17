@@ -1,4 +1,4 @@
-CREATE FUNCTION execnoerrornoticequery(q text, qnoerror text DEFAULT NULL::text) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION getlpcyklubydaty(timestamp with time zone, timestamp with time zone, interval) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION przeliczallbackorderkkw(_kkwhead tr_kkwhead) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE 

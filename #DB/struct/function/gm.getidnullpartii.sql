@@ -1,4 +1,4 @@
-CREATE FUNCTION getidnullpartii(integer, boolean DEFAULT true, integer DEFAULT 1) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

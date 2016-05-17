@@ -1,4 +1,4 @@
-CREATE FUNCTION zdarzenia_priority_hasconflict() RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

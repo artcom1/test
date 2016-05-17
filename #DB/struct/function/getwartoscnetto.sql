@@ -1,4 +1,4 @@
-CREATE FUNCTION getwartoscnetto(numeric, numeric, numeric, integer, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

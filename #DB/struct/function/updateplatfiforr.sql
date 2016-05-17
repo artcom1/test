@@ -1,4 +1,4 @@
-CREATE FUNCTION updateplatfiforr(integer, integer, numeric, numeric, integer, boolean) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

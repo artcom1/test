@@ -1,4 +1,4 @@
-CREATE FUNCTION nullzero(smallint) RETURNS smallint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN
@@ -13,7 +13,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION nullzero(bigint) RETURNS bigint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT COALESCE($1,0::bigint);
@@ -23,7 +23,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION nullzero(mpq) RETURNS mpq
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT COALESCE($1,0::mpq);

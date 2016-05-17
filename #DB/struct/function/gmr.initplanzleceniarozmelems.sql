@@ -1,4 +1,4 @@
-CREATE FUNCTION initplanzleceniarozmelems(idplanu integer, idsposobu integer, idtowarundx integer, iloscop numeric, idsrcelem integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

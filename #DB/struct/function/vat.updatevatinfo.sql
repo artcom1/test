@@ -1,4 +1,4 @@
-CREATE FUNCTION updatevatinfo(tb_vat) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

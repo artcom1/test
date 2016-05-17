@@ -1,4 +1,4 @@
-CREATE FUNCTION addtmilosci(v1 tm_ilosci, v2 tm_ilosci) RETURNS tm_ilosci
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

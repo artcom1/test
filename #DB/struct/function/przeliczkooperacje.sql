@@ -1,4 +1,4 @@
-CREATE FUNCTION przeliczkooperacje(tr_kkwnodwyk) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

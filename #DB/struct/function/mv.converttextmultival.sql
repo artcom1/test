@@ -1,4 +1,4 @@
-CREATE FUNCTION converttextmultival(integer, integer, text, text, text, text, text, boolean) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

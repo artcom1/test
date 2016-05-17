@@ -1,4 +1,4 @@
-CREATE FUNCTION doskojplatnosci(integer, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION doskojplatnosci(integer, integer, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -22,7 +22,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION doskojplatnosci(integer, integer, integer, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

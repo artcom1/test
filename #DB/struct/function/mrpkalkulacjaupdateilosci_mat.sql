@@ -1,4 +1,4 @@
-CREATE FUNCTION mrpkalkulacjaupdateilosci_mat(integer, numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

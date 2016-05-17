@@ -1,4 +1,4 @@
-CREATE FUNCTION oniurealizacjaplanuprod() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

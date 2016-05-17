@@ -1,4 +1,4 @@
-CREATE FUNCTION synckorektywz(integer, date) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -79,7 +79,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION synckorektywz(integer, integer, integer, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

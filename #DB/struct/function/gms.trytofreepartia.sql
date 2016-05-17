@@ -1,4 +1,4 @@
-CREATE FUNCTION trytofreepartia(scid integer, maxilosc numeric, qdiv text DEFAULT NULL::text) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

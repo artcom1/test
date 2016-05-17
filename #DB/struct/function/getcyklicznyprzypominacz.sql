@@ -1,4 +1,4 @@
-CREATE FUNCTION getcyklicznyprzypominacz(date, date) RETURNS SETOF tb_cyklpprow
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION comparepartie(public.tg_partie, public.tg_partie, integer, boolean DEFAULT true, integer DEFAULT 0) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

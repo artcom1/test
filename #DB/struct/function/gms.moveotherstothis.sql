@@ -1,4 +1,4 @@
-CREATE FUNCTION moveotherstothis(scid integer, maxilosc numeric, qdiv text DEFAULT NULL::text) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

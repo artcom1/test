@@ -1,4 +1,4 @@
-CREATE FUNCTION zmiananapzruch(integer, numeric, numeric) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -9,7 +9,7 @@ END; $_$;
 --
 --
 
-CREATE FUNCTION zmiananapzruch(integer, numeric, numeric, boolean) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 --WSPOK

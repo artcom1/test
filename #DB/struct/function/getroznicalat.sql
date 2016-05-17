@@ -1,4 +1,4 @@
-CREATE FUNCTION getroznicalat(date, date) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

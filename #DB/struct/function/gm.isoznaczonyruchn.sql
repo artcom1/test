@@ -1,4 +1,4 @@
-CREATE FUNCTION isoznaczonyruchn(idruchu integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql STABLE
     AS $$
  --- Funkcja zwraca TRUE jesli ruch o ID=idruchu jest oznaczony na najwyzszym SETID

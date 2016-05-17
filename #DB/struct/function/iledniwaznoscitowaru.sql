@@ -1,4 +1,4 @@
-CREATE FUNCTION iledniwaznoscitowaru(date) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 
@@ -16,7 +16,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION iledniwaznoscitowaru(date, date) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

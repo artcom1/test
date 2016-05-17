@@ -1,4 +1,4 @@
-CREATE FUNCTION settings_set_vendo_default(_name text, _value text, _flag integer) RETURNS TABLE(storeid integer, settingid integer)
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN
@@ -10,7 +10,7 @@ $$;
 --
 --
 
-CREATE FUNCTION settings_set_vendo_default(_context text, _name text, _value text, _flag integer) RETURNS TABLE(storeid integer, settingid integer)
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

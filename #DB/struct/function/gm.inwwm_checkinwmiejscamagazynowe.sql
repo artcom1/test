@@ -1,4 +1,4 @@
-CREATE FUNCTION inwwm_checkinwmiejscamagazynowe() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

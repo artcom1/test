@@ -1,4 +1,4 @@
-CREATE FUNCTION ismail(integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$ --argumentem jest flaga zdarzenia (tb_zdarzenia.zd_flaga)
 BEGIN

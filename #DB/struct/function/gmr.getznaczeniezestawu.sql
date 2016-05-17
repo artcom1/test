@@ -1,4 +1,4 @@
-CREATE FUNCTION getznaczeniezestawu(tel_new2flaga integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $$
  ---Funkcja zwraca typ ala zestaw dla podanej tel_new2flaga

@@ -1,4 +1,4 @@
-CREATE FUNCTION onbiudtelefon() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

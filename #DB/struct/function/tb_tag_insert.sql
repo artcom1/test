@@ -1,4 +1,4 @@
-CREATE FUNCTION tb_tag_insert() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

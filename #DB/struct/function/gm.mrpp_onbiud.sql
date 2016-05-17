@@ -1,4 +1,4 @@
-CREATE FUNCTION mrpp_onbiud() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

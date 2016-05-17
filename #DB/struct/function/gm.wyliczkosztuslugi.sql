@@ -1,4 +1,4 @@
-CREATE FUNCTION wyliczkosztuslugi(integer, numeric, numeric, newflaga integer, oldvalue numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---funckja wylicza koszt dla uslugi wedlug danych zapisanych na kartotece uslugi

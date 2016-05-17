@@ -1,4 +1,4 @@
-CREATE FUNCTION podmienlokalnenielokalne(scid integer, maxilosc numeric, r tm_simcoll, qdiv text DEFAULT NULL::text) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

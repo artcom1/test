@@ -1,4 +1,4 @@
-CREATE FUNCTION searchforrezerwacje(_nadmiar numeric, _r public.tg_ruchy, idrezerwacjionly integer DEFAULT NULL::integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

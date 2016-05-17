@@ -1,3 +1,4 @@
 CREATE TABLE aa (
-    a integer
+    a integer,
+    b integer
 );

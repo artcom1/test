@@ -1,4 +1,4 @@
-CREATE FUNCTION getnullpartiarecord(idtowaru integer, idtowmag integer, wplyw integer) RETURNS public.tg_partie
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION tozdarzenielpfull(text, integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE
@@ -19,7 +19,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION tozdarzenielpfull(text, integer, integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION inittransaction(idpracownika integer, idcentrali integer) RETURNS bigint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $$
  SELECT vendo.inittransaction(idpracownika,idcentrali,0);
@@ -8,7 +8,7 @@ $$;
 --
 --
 
-CREATE FUNCTION inittransaction(idpracownika integer, idcentrali integer, notifyflag integer) RETURNS bigint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

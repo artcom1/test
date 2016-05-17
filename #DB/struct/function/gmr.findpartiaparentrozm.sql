@@ -1,4 +1,4 @@
-CREATE FUNCTION findpartiaparentrozm(recpartii public.tg_partie, createifnotexists boolean DEFAULT false) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE
@@ -21,7 +21,7 @@ $$;
 --
 --
 
-CREATE FUNCTION findpartiaparentrozm(recpartii public.tg_partie, idtowarundx integer, whereparams integer, createifnotexists boolean DEFAULT false) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

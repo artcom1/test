@@ -1,4 +1,4 @@
-CREATE FUNCTION mrpp_guardonruch(idpalety integer, idmagazynu integer, idmiejsca integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

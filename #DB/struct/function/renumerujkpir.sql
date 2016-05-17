@@ -1,4 +1,4 @@
-CREATE FUNCTION renumerujkpir(integer, boolean, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

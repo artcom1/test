@@ -1,4 +1,4 @@
-CREATE FUNCTION getworktime(timestamp without time zone, timestamp without time zone, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION getworktime(timestamp without time zone, timestamp without time zone, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

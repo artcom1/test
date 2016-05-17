@@ -1,4 +1,4 @@
-CREATE FUNCTION upewnijstan(integer, numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

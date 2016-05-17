@@ -1,4 +1,4 @@
-CREATE FUNCTION isanyallowed(integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT vendo.getTParamI('GMS_ISANYALLOWED_'||$1,0)>0;

@@ -1,4 +1,4 @@
-CREATE FUNCTION useruchrezlekka(simid integer, idtowmag integer, idpartiipz integer, idpartiil integer, ilosc numeric, tonullpartia boolean) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

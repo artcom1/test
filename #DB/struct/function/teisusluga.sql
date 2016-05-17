@@ -1,4 +1,4 @@
-CREATE FUNCTION teisusluga(integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $_$
 SELECT ($1&4)<>0;

@@ -1,4 +1,4 @@
-CREATE FUNCTION chat_getorcreateconversation(pracownicy integer[]) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE 

@@ -1,4 +1,4 @@
-CREATE FUNCTION onchangeatowmagupdate() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

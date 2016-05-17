@@ -1,4 +1,4 @@
-CREATE FUNCTION renumerujlpzdarzen() RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE
@@ -28,7 +28,7 @@ $$;
 --
 --
 
-CREATE FUNCTION renumerujlpzdarzen(integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -70,7 +70,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION renumerujlpzdarzen(integer, integer DEFAULT NULL::integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

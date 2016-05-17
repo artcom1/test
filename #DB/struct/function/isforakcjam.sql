@@ -1,4 +1,4 @@
-CREATE FUNCTION isforakcjam(integer, integer, integer, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

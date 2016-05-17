@@ -1,4 +1,4 @@
-CREATE FUNCTION naprawa_towar_struktury(integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

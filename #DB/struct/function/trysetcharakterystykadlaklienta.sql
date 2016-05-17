@@ -1,4 +1,4 @@
-CREATE FUNCTION trysetcharakterystykadlaklienta(integer, tg_jednostkialt) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

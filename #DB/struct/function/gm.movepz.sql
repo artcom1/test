@@ -1,4 +1,4 @@
-CREATE FUNCTION movepz(integer, integer, numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION movepz(integer, integer, numeric, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -22,7 +22,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION movepz(integer, integer, numeric, boolean, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---WSPOK

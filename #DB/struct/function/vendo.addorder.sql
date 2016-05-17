@@ -1,4 +1,4 @@
-CREATE FUNCTION addorder(text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

@@ -1,4 +1,4 @@
-CREATE FUNCTION przeliczpzamdozlecenia(integer, integer, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---pierwszy argument tr_idtrans, 

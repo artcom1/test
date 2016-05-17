@@ -1,4 +1,4 @@
-CREATE FUNCTION isanyoznaczonyruchn(setid bigint DEFAULT NULL::bigint) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql STABLE
     AS $$
  --- Dla setid=NULL zwraca TRUE jesli oznaczony jest jakakowliek ruch

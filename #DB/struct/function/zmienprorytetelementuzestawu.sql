@@ -1,4 +1,4 @@
-CREATE FUNCTION zmienprorytetelementuzestawu(integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

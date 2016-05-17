@@ -1,4 +1,4 @@
-CREATE FUNCTION zdarzenia_priority_refresh() RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

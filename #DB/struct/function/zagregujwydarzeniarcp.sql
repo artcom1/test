@@ -1,4 +1,4 @@
-CREATE FUNCTION zagregujwydarzeniarcp(integer, date, boolean) RETURNS void
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

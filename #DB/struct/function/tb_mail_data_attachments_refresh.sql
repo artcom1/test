@@ -1,4 +1,4 @@
-CREATE FUNCTION tb_mail_data_attachments_refresh() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE 

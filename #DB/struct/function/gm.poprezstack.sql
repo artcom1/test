@@ -1,4 +1,4 @@
-CREATE FUNCTION poprezstack(integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -42,7 +42,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION poprezstack(integer, numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

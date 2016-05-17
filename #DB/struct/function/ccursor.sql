@@ -1,4 +1,4 @@
-CREATE FUNCTION ccursor(text, text) RETURNS refcursor
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION rozpiszwymiarykh(integer, integer, integer, integer, numeric, numeric, boolean, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

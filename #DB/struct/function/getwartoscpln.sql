@@ -1,4 +1,4 @@
-CREATE FUNCTION getwartoscpln(numeric, numeric, mpq) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

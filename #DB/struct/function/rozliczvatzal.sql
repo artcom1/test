@@ -1,4 +1,4 @@
-CREATE FUNCTION rozliczvatzal(_idrozliczenia integer, _idrozrachunku integer, _brutto numeric, _isleft boolean, _idtransfv integer DEFAULT NULL::integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

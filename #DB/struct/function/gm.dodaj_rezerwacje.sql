@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_rezerwacje(dodaj_rezerwacje_type, boolean DEFAULT false) RETURNS dodaj_rezerwacje_rettype
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

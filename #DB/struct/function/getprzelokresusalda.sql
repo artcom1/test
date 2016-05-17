@@ -1,4 +1,4 @@
-CREATE FUNCTION getprzelokresusalda(integer, integer, integer, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

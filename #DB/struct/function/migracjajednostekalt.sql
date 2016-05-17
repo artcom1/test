@@ -1,4 +1,4 @@
-CREATE FUNCTION migracjajednostekalt(tg_jednostkialt, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

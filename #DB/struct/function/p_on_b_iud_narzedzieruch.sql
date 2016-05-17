@@ -1,4 +1,4 @@
-CREATE FUNCTION p_on_b_iud_narzedzieruch() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

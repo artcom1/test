@@ -1,4 +1,4 @@
-CREATE FUNCTION initscblock(tablequery text, tablealias text, simid text, idtowmag text, idruchupz text) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

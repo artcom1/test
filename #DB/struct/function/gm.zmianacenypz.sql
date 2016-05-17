@@ -1,4 +1,4 @@
-CREATE FUNCTION zmianacenypz(idtranselem integer, checkwholetrans boolean DEFAULT true) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION dodajbackorderruchy(integer, integer, numeric, integer, date, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

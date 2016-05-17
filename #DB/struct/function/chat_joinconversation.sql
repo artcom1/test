@@ -1,4 +1,4 @@
-CREATE FUNCTION chat_joinconversation(conversationid integer, pracownicy integer[]) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE 

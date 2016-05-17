@@ -1,4 +1,4 @@
-CREATE FUNCTION flag_on(flag integer[], index integer) RETURNS integer[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN 

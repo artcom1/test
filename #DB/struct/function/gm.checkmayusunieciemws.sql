@@ -1,4 +1,4 @@
-CREATE FUNCTION checkmayusunieciemws(idelem integer, texidelem integer, isrozchod boolean) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

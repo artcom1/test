@@ -1,4 +1,4 @@
-CREATE FUNCTION getzdarzeniacykliczne(date, date, text) RETURNS SETOF tb_cyklrow
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

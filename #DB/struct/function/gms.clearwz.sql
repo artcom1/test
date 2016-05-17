@@ -1,4 +1,4 @@
-CREATE FUNCTION clearwz(simid integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

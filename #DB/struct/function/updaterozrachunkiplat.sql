@@ -1,4 +1,4 @@
-CREATE FUNCTION updaterozrachunkiplat(_idplat integer, _idklienta integer, _idbanku integer, _kwotawal numeric, _kurs mpq, _idwaluty integer, _flaga integer, _wplyw integer, _data date, _forma integer, _fm_idcentrali integer, _kwotapln numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION setstanuklienta(integer, integer, numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

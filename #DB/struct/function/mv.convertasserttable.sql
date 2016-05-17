@@ -1,4 +1,4 @@
-CREATE FUNCTION convertasserttable(integer, integer, text, text, text) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

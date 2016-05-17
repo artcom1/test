@@ -1,4 +1,4 @@
-CREATE FUNCTION updatetowaronakcja(integer, integer, integer, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

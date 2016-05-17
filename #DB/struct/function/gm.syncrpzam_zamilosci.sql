@@ -1,4 +1,4 @@
-CREATE FUNCTION syncrpzam_zamilosci(_idelem integer, _ilosc numeric, _nadmiar numeric, _what integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

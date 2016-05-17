@@ -1,4 +1,4 @@
-CREATE FUNCTION calckurs(licznik numeric, mianownik numeric, podstawa integer) RETURNS mpq
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

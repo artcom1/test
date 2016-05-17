@@ -1,4 +1,4 @@
-CREATE FUNCTION floorround(numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

@@ -1,4 +1,4 @@
-CREATE FUNCTION dodajapz(_idelem integer, _idtex integer, _idmiejsca integer, _idpartii integer, _idpaletymrp integer, _ilosc numeric, _checkerr boolean, _checknerr boolean DEFAULT true) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 ---WSPOK

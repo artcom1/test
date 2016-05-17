@@ -1,4 +1,4 @@
-CREATE FUNCTION tv_mysessionpid() RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql STABLE
     AS $$
 DECLARE

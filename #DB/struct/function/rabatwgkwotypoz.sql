@@ -1,4 +1,4 @@
-CREATE FUNCTION rabatwgkwotypoz(integer, numeric, numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION gettranslatearraybyrozmiary(rmr_idrodzajuold integer, rmr_idrodzajunew integer) RETURNS integer[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION array_round(numeric[], integer) RETURNS numeric[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

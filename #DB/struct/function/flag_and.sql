@@ -1,4 +1,4 @@
-CREATE FUNCTION flag_and(a integer[], b integer[]) RETURNS integer[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

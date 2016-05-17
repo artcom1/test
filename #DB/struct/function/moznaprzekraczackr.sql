@@ -1,4 +1,4 @@
-CREATE FUNCTION moznaprzekraczackr(integer, boolean) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

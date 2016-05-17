@@ -1,4 +1,4 @@
-CREATE FUNCTION getnajblizszeprzypominaczecykl(timestamp with time zone) RETURNS SETOF tb_cyklpprow
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

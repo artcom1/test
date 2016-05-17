@@ -1,4 +1,4 @@
-CREATE FUNCTION s_on_a_iud_kkwnod_warianty() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

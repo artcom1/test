@@ -1,4 +1,4 @@
-CREATE FUNCTION simulatewz(simid integer, idmiejsca integer, idtowmag integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE 

@@ -1,4 +1,4 @@
-CREATE FUNCTION copyidtouse(simid integer, srcid integer, dstid integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

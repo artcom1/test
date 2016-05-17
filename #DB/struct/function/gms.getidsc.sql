@@ -1,4 +1,4 @@
-CREATE FUNCTION getidsc(simid integer, idruchupz integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

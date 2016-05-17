@@ -1,4 +1,4 @@
-CREATE FUNCTION mrpkalkulacjagetkolumna(tr_mrpkalkulacje, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -93,7 +93,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION mrpkalkulacjagetkolumna(tr_mrpkalkulacje, numeric, integer, boolean, boolean, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

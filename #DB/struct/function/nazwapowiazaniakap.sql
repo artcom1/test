@@ -1,4 +1,4 @@
-CREATE FUNCTION nazwapowiazaniakap(integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

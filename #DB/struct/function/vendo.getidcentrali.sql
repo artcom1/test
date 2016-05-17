@@ -1,4 +1,4 @@
-CREATE FUNCTION getidcentrali() RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql STABLE
     AS $$
  SELECT vendo.gettparami('FM_IDCENTRALI');

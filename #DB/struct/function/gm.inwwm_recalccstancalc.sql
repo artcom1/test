@@ -1,4 +1,4 @@
-CREATE FUNCTION inwwm_recalccstancalc(idtrans integer, idmiejsca integer DEFAULT NULL::integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

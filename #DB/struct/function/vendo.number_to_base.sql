@@ -1,4 +1,4 @@
-CREATE FUNCTION number_to_base(num bigint, base integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE STRICT
     AS $$
 WITH RECURSIVE n(i, n, r) AS (

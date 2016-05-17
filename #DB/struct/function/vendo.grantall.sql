@@ -1,4 +1,4 @@
-CREATE FUNCTION grantall(text) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 

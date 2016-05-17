@@ -1,4 +1,4 @@
-CREATE FUNCTION zdarzenia_priority_swap(zd_idzdarzenia_a integer, zd_idzdarzenia_b integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

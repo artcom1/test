@@ -1,4 +1,4 @@
-CREATE FUNCTION getdatyrozmiarukubelkasymulacyjnego(integer, integer, integer, boolean, OUT dataod timestamp without time zone, OUT datado timestamp without time zone) RETURNS record
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

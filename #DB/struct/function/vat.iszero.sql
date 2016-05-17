@@ -1,4 +1,4 @@
-CREATE FUNCTION iszero(tb_vat) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $_$
  SELECT  ($1.v_netnetto=0) AND

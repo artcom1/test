@@ -1,4 +1,4 @@
-CREATE FUNCTION getczaswspolny(_czasstart1 timestamp without time zone, _czasstop1 timestamp without time zone, _czasstart2 timestamp without time zone, _czasstop2 timestamp without time zone) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

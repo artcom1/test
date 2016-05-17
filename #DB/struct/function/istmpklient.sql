@@ -1,4 +1,4 @@
-CREATE FUNCTION istmpklient(integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

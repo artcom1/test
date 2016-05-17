@@ -1,4 +1,4 @@
-CREATE FUNCTION comparepartie_zlecenie(ret integer, whereparams integer, pzidzlecenia integer, wzidzlecenia integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $$
 BEGIN

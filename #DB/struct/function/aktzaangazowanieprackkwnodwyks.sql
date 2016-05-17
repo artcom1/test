@@ -1,4 +1,4 @@
-CREATE FUNCTION aktzaangazowanieprackkwnodwyks(text) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -12,7 +12,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION aktzaangazowanieprackkwnodwyks(text, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

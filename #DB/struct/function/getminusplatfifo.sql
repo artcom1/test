@@ -1,4 +1,4 @@
-CREATE FUNCTION getminusplatfifo(integer, integer, numeric, integer, date) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION getminusplatfifo(integer, integer, numeric, integer, date, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -45,7 +45,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION getminusplatfifo(_idplatnosc integer, _idbanku integer, _kwota numeric, _idwaluty integer, _data date, _idrr integer, _idrl integer, _uselifo boolean DEFAULT false) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

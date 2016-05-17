@@ -1,4 +1,4 @@
-CREATE FUNCTION updatestanpartii(integer, numeric, numeric, integer, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

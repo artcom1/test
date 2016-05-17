@@ -1,4 +1,4 @@
-CREATE FUNCTION onaiudnewmultivalues() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

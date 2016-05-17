@@ -1,4 +1,4 @@
-CREATE FUNCTION jakdzienwolnytoprzesun(date) RETURNS date
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

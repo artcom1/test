@@ -1,4 +1,4 @@
-CREATE FUNCTION onaiudtechnostpracy() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

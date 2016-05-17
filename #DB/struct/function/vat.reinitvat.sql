@@ -1,4 +1,4 @@
-CREATE FUNCTION reinitvat(integer, boolean DEFAULT true) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

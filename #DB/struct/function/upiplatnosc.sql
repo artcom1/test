@@ -1,4 +1,4 @@
-CREATE FUNCTION upiplatnosc() RETURNS opaque
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
  DECLARE

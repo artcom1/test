@@ -1,4 +1,4 @@
-CREATE FUNCTION tolog(txt text, dtype integer, id integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE
@@ -22,7 +22,7 @@ $$;
 --
 --
 
-CREATE FUNCTION tolog(txt text, dtype text, id integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT vendo.toLog($1,vendo.getTableType($2),$3);

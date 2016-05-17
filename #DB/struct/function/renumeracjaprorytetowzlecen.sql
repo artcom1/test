@@ -1,4 +1,4 @@
-CREATE FUNCTION renumeracjaprorytetowzlecen(boolean, boolean, boolean, boolean, text) RETURNS void
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

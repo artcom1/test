@@ -1,4 +1,4 @@
-CREATE FUNCTION syncplanzleceniawz(integer, integer, numeric, date) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

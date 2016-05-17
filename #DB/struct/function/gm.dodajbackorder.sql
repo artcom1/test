@@ -1,4 +1,4 @@
-CREATE FUNCTION dodajbackorder(integer, integer, numeric, boolean, integer, boolean, date, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -40,7 +40,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION dodajbackorder(_idelemsrc integer, _idtowmag integer, _ilosc numeric, _isprzychod boolean, _powod integer, _zrezerwacja boolean, _data date, _zlecenie integer, _new2flaga integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

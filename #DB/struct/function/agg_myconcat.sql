@@ -1,4 +1,4 @@
-CREATE FUNCTION agg_myconcat(text, text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

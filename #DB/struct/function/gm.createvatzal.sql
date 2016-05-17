@@ -1,4 +1,4 @@
-CREATE FUNCTION createvatzal(_idtrans integer, _idrozrachunku integer, _idrozrachunkuvat integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

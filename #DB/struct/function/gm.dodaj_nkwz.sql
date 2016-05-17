@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_nkwz(numeric, integer, integer, integer, integer, integer, integer, date, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

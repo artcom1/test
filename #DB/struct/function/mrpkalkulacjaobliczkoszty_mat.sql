@@ -1,4 +1,4 @@
-CREATE FUNCTION mrpkalkulacjaobliczkoszty_mat(integer, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

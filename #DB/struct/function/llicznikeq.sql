@@ -1,4 +1,4 @@
-CREATE FUNCTION llicznikeq(integer, numeric, numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -14,7 +14,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION llicznikeq(integer, text, text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

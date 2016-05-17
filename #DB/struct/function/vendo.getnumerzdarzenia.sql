@@ -1,4 +1,4 @@
-CREATE FUNCTION getnumerzdarzenia(integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE
@@ -15,7 +15,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION getnumerzdarzenia(zd_numer integer, zd_rodzaj integer, zd_prefix text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $$
 DECLARE

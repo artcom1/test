@@ -1,4 +1,4 @@
-CREATE FUNCTION executeorders() RETURNS smallint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

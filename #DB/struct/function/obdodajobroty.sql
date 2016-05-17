@@ -1,4 +1,4 @@
-CREATE FUNCTION obdodajobroty(integer, integer, integer, numeric, numeric, numeric, numeric, integer, smallint) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

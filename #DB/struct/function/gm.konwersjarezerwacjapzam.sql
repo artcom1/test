@@ -1,4 +1,4 @@
-CREATE FUNCTION konwersjarezerwacjapzam(konwersjarezerwacjapzam_type) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

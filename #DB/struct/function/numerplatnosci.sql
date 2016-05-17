@@ -1,4 +1,4 @@
-CREATE FUNCTION numerplatnosci(text, text, integer, date, integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

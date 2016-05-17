@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_wz_querypz(dodaj_wz_type, public.tg_partie, boolean DEFAULT false, integer DEFAULT NULL::integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---WSPOK

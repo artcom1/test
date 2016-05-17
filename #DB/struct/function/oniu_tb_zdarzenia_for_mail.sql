@@ -1,4 +1,4 @@
-CREATE FUNCTION oniu_tb_zdarzenia_for_mail() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE 

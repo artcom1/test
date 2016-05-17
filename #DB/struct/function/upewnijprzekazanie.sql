@@ -1,4 +1,4 @@
-CREATE FUNCTION upewnijprzekazanie(integer, integer, integer, numeric, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -37,7 +37,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION upewnijprzekazanie(integer, integer, integer, integer, numeric, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

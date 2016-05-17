@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_wz_queryrez(dodaj_wz_type, public.tg_partie, boolean DEFAULT false) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

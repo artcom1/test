@@ -1,4 +1,4 @@
-CREATE FUNCTION getstantowaru(integer, integer, integer, integer, integer, integer, integer DEFAULT NULL::integer, numeric DEFAULT NULL::numeric) RETURNS stan_towaru
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -27,7 +27,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION getstantowaru(integer, integer, public.tg_partie, integer, integer, integer, integer DEFAULT NULL::integer, numeric DEFAULT NULL::numeric) RETURNS stan_towaru
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

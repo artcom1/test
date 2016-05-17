@@ -1,4 +1,4 @@
-CREATE FUNCTION comparepartie_klient(ret integer, whereparams integer, pzidklienta integer, wzidklienta integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $$
 BEGIN

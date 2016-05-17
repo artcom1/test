@@ -1,4 +1,4 @@
-CREATE FUNCTION dodajbackorderzplanu(integer, integer, numeric, boolean, date, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION dodajbackorderzplanu(integer, integer, numeric, boolean, date, integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -22,7 +22,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION dodajbackorderzplanu(integer, integer, numeric, boolean, date, integer, integer, integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION nextoznaczruchn() RETURNS bigint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $$
  ---Zwraca identyfikator SETa ponadto tworzac tabele

@@ -1,4 +1,4 @@
-CREATE FUNCTION onietapzlecen() RETURNS opaque
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

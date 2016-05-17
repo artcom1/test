@@ -1,4 +1,4 @@
-CREATE FUNCTION numerkonta(text, integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $_$
 SELECT numerKonta($1,$2::text);
@@ -8,7 +8,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION numerkonta(text, text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN
@@ -24,7 +24,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION numerkonta(text, integer, integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $_$
  SELECT numerKonta($1,$2::text,$3);
@@ -34,7 +34,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION numerkonta(text, text, integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

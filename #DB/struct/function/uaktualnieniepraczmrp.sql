@@ -1,4 +1,4 @@
-CREATE FUNCTION uaktualnieniepraczmrp(integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION uaktualnieniepraczmrp(integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -28,7 +28,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION uaktualnieniepraczmrp(integer, integer, integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION zdarzenia_priority_movebottom(zd_idzdarzenia_source integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

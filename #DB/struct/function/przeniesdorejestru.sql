@@ -1,4 +1,4 @@
-CREATE FUNCTION przeniesdorejestru(integer, integer, text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---pierwszy argument identyfikator przenoszonego dokumentu, 2 identyfikator nazwy rejestru do ktorego przenosimy dokument
@@ -91,7 +91,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION przeniesdorejestru(integer, integer, text, text, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---pierwszy argument identyfikator przenoszonego dokumentu, 2 identyfikator nazwy rejestru do ktorego przenosimy dokument

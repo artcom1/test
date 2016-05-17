@@ -1,4 +1,4 @@
-CREATE FUNCTION normalizewalutarozrachunkow(integer, integer, integer, numeric, mpq, boolean) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

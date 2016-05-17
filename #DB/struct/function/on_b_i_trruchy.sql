@@ -1,4 +1,4 @@
-CREATE FUNCTION on_b_i_trruchy() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

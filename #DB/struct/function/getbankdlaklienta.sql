@@ -1,4 +1,4 @@
-CREATE FUNCTION getbankdlaklienta(integer, integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -13,7 +13,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION getbankdlaklienta(integer, integer, integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

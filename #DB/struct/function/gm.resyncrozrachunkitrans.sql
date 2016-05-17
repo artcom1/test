@@ -1,4 +1,4 @@
-CREATE FUNCTION resyncrozrachunkitrans(public.tg_transakcje) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -60,7 +60,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION resyncrozrachunkitrans(_new public.tg_transakcje, _wartosc numeric, _kurs public.mpq, _vat numeric, _kursvat public.mpq, _deltano integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

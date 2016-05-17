@@ -1,4 +1,4 @@
-CREATE FUNCTION doskojplatnosciex(integer, integer, integer, numeric, numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

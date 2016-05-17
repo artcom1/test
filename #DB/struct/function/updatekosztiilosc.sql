@@ -1,4 +1,4 @@
-CREATE FUNCTION updatekosztiilosc(integer, integer, integer, integer, numeric, numeric, numeric, numeric, integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

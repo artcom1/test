@@ -1,4 +1,4 @@
-CREATE FUNCTION getdatycyklicznosci(integer, timestamp with time zone, timestamp with time zone, date, date, interval) RETURNS SETOF record
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

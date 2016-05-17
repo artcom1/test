@@ -1,4 +1,4 @@
-CREATE FUNCTION splaszczosrodekpk(integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

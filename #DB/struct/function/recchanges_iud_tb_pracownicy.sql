@@ -1,4 +1,4 @@
-CREATE FUNCTION recchanges_iud_tb_pracownicy() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

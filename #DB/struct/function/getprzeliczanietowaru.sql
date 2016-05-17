@@ -1,4 +1,4 @@
-CREATE FUNCTION getprzeliczanietowaru(integer) RETURNS record
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

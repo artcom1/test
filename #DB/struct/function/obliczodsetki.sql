@@ -1,4 +1,4 @@
-CREATE FUNCTION obliczodsetki(integer, date, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -11,7 +11,7 @@ END;
 --
 --
 
-CREATE FUNCTION obliczodsetki(integer, date, date, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

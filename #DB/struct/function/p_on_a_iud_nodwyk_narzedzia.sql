@@ -1,4 +1,4 @@
-CREATE FUNCTION p_on_a_iud_nodwyk_narzedzia() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

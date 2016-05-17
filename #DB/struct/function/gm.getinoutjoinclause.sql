@@ -1,4 +1,4 @@
-CREATE FUNCTION getinoutjoinclause(_method integer, _tablealias text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $$
 BEGIN

@@ -1,4 +1,4 @@
-CREATE FUNCTION isostatniadostawatowaru(idtowaru integer, iddokumentu integer, ignorekorekta boolean DEFAULT true) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

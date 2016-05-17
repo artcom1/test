@@ -1,4 +1,4 @@
-CREATE FUNCTION getnajblizszycykl(integer) RETURNS timestamp with time zone
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION createdyspdlakkwnodrozmiarowka(tr_kkwnod, integer, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

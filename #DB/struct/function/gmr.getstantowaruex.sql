@@ -1,4 +1,4 @@
-CREATE FUNCTION getstantowaruex(idtowmag integer, idtowaru integer, idpartii integer, idklienta integer, idskojelem integer, fmidx integer, simid integer DEFAULT NULL::integer, similosc numeric DEFAULT NULL::numeric, idsposobupakowania integer DEFAULT NULL::integer) RETURNS stan_towaruex
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE
@@ -22,7 +22,7 @@ $$;
 --
 --
 
-CREATE FUNCTION getstantowaruex(idtowmag integer, idtowaru integer, pap public.tg_partie, idklienta integer, idskojelem integer, fmidx integer, simid integer DEFAULT NULL::integer, similosc numeric DEFAULT NULL::numeric, idsposobupakowania integer DEFAULT NULL::integer) RETURNS stan_towaruex
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

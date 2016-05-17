@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_wz(dodaj_wz_type, boolean DEFAULT false) RETURNS dodaj_wz_rettype
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -110,7 +110,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION dodaj_wz(numeric, integer, integer, integer, integer, integer, integer, date, integer, integer, boolean, integer, integer, integer DEFAULT 0) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

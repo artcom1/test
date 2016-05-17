@@ -1,4 +1,4 @@
-CREATE FUNCTION array_ustaw_wartosc(integer[], integer) RETURNS integer[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -21,7 +21,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION array_ustaw_wartosc(numeric[], numeric) RETURNS numeric[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION getnormastanowiskatpz(integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION zmianakolejnoscipoz(text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 
@@ -26,7 +26,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION zmianakolejnoscipoz(text, text, text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 
@@ -41,7 +41,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION zmianakolejnoscipoz(text, text, text, integer, text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE 

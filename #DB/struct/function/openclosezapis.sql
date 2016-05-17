@@ -1,4 +1,4 @@
-CREATE FUNCTION openclosezapis(integer, integer, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

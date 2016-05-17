@@ -1,4 +1,4 @@
-CREATE FUNCTION wymienpartierezerwacjinullowych(idruchurez1 integer, idruchurez2 integer, ilosc numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

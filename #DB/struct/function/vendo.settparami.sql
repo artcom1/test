@@ -1,4 +1,4 @@
-CREATE FUNCTION settparami(text, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT vendo.setTParam($1,$2::text)::int;

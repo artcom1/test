@@ -1,4 +1,4 @@
-CREATE FUNCTION normphone(phone text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql STRICT
     AS $$
 DECLARE

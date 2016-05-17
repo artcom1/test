@@ -1,4 +1,4 @@
-CREATE FUNCTION onuruchy() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 ---WSPOK

@@ -1,4 +1,4 @@
-CREATE FUNCTION array_to_indexarray(numeric[]) RETURNS integer[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

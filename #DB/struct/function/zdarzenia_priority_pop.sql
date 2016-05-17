@@ -1,4 +1,4 @@
-CREATE FUNCTION zdarzenia_priority_pop(zd_idzdarzenia_source integer, prefer_max boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

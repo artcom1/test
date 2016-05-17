@@ -1,4 +1,4 @@
-CREATE FUNCTION filteriloscop(iloscop numeric, new2flaga integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE
     AS $$
  SELECT (CASE WHEN (new2flaga&(1<<21))!=0 THEN NULL ELSE iloscop END);

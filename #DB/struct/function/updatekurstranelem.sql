@@ -1,4 +1,4 @@
-CREATE FUNCTION updatekurstranelem(mpq, integer, integer, integer) RETURNS mpq
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

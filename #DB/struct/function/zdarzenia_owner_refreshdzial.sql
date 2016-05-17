@@ -1,4 +1,4 @@
-CREATE FUNCTION zdarzenia_owner_refreshdzial() RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

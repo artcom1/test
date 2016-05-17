@@ -1,4 +1,4 @@
-CREATE FUNCTION zmienpowiazanienodrecplanzlecenia(integer, numeric, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -85,7 +85,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION zmienpowiazanienodrecplanzlecenia(integer, numeric, integer, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

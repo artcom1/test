@@ -1,4 +1,4 @@
-CREATE FUNCTION przeliczbackorderynodrec(tr_nodrec) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION updatecellko() RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

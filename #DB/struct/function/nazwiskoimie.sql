@@ -1,4 +1,4 @@
-CREATE FUNCTION nazwiskoimie(text, text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 BEGIN

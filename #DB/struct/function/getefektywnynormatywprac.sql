@@ -1,4 +1,4 @@
-CREATE FUNCTION getefektywnynormatywprac(numeric, numeric, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -19,7 +19,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION getefektywnynormatywprac(numeric, numeric, numeric, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION rozliczvatzalu(integer, integer, numeric, boolean, boolean, integer DEFAULT NULL::integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

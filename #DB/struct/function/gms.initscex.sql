@@ -1,4 +1,4 @@
-CREATE FUNCTION initscex(tablename text, tablealias text, simid text, idtowmag text, idruchupz text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

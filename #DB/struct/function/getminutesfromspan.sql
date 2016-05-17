@@ -1,4 +1,4 @@
-CREATE FUNCTION getminutesfromspan(interval) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

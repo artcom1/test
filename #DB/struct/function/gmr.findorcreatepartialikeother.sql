@@ -1,4 +1,4 @@
-CREATE FUNCTION findorcreatepartialikeother(wzor public.tg_partie, idtowarunew integer, savenewtodbifnotexists boolean DEFAULT true) RETURNS public.tg_partie
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

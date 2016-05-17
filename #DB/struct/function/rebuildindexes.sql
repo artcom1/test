@@ -1,4 +1,4 @@
-CREATE FUNCTION rebuildindexes() RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

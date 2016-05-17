@@ -1,4 +1,4 @@
-CREATE FUNCTION przepiszskojarzeniadozlecenia(integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---od zlecenia o pierwszym argumecie przepinamy dokumenty do drugiego zlecenia 

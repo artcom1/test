@@ -1,4 +1,4 @@
-CREATE FUNCTION zdarzenia_priority_firstfree(p_start integer, p_end integer, search_in_order boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

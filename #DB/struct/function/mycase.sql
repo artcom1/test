@@ -1,4 +1,4 @@
-CREATE FUNCTION mycase(boolean, numeric, numeric) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -13,7 +13,7 @@ END; $_$;
 --
 --
 
-CREATE FUNCTION mycase(boolean, text, text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

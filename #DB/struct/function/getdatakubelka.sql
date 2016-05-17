@@ -1,4 +1,4 @@
-CREATE FUNCTION getdatakubelka(date, time without time zone, time without time zone, integer) RETURNS timestamp without time zone
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

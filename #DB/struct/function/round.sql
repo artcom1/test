@@ -1,4 +1,4 @@
-CREATE FUNCTION round(integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT $1::numeric;
@@ -8,7 +8,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION round(bigint, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
  SELECT $1::numeric;
@@ -18,7 +18,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION round(mpq, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $_$
 SELECT round($1::numeric,$2)

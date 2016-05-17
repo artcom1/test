@@ -1,4 +1,4 @@
-CREATE FUNCTION getmmsequence(idruchupz integer, idruchuwzfirst integer DEFAULT NULL::integer) RETURNS SETOF mmsequencetype
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

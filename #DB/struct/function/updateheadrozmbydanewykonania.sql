@@ -1,4 +1,4 @@
-CREATE FUNCTION updateheadrozmbydanewykonania(_kwh_idheadu integer, idx integer, iloscwyk integer, iloscmag integer, iloscmagclose integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN
@@ -10,7 +10,7 @@ $$;
 --
 --
 
-CREATE FUNCTION updateheadrozmbydanewykonania(_kwh_idheadu integer, idx integer, iloscwyk numeric, iloscmag numeric, iloscmagclose numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

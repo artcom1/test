@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_kpz(numeric, integer, integer, integer, integer, integer, integer, date, integer, numeric, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

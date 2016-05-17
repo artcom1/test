@@ -1,4 +1,4 @@
-CREATE FUNCTION skojarzpzzrezerwacja(numeric, public.tg_ruchy, public.tg_ruchy) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

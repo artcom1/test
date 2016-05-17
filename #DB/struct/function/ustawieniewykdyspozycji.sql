@@ -1,4 +1,4 @@
-CREATE FUNCTION ustawieniewykdyspozycji(_dyspozycjamag tr_dyspozycjamag) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

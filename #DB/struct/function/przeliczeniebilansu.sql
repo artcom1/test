@@ -1,4 +1,4 @@
-CREATE FUNCTION przeliczeniebilansu(text, text, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ----argumenty od_czasu, do_czasu, idbanku
@@ -25,7 +25,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION przeliczeniebilansu(date, date, integer, integer, integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ----argumenty od_czasu, do_czasu, idbanku, wl_idwaluty, formaplatnosci, UID

@@ -1,4 +1,4 @@
-CREATE FUNCTION maxdate(timestamp with time zone, timestamp with time zone) RETURNS timestamp with time zone
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

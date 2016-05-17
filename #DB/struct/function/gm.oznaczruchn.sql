@@ -1,4 +1,4 @@
-CREATE FUNCTION oznaczruchn(oznid bigint, ruchid integer, domark boolean) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 ---- Funkcja oznacza lub odznacza (w zaleznosci od parametru domark) podany w ruchid ruch dla SETID=oznid

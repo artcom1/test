@@ -1,4 +1,4 @@
-CREATE FUNCTION onidkalkulacjeval() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION realizacjanaprawy(integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -20,7 +20,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION realizacjanaprawy(integer, integer, numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

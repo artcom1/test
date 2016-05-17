@@ -1,4 +1,4 @@
-CREATE FUNCTION prepareforwmsmm(simid integer, doc integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

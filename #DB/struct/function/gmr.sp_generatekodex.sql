@@ -1,4 +1,4 @@
-CREATE FUNCTION sp_generatekodex(_rmp_idsposobu integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION createoznaczruchytable() RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 ---- Utworz tabele w ktorej beda ruchy oznaczone

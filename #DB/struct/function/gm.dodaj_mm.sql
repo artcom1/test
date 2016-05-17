@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_mm(integer, integer, integer, integer, date, integer, boolean, numeric, integer DEFAULT NULL::integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---WRTOK

@@ -1,4 +1,4 @@
-CREATE FUNCTION iscyklinokres(date, date, date, date, interval) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

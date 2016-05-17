@@ -1,4 +1,4 @@
-CREATE FUNCTION updateptm(integer, integer, numeric, numeric, numeric, boolean, numeric, integer, addalways boolean DEFAULT false) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

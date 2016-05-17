@@ -1,4 +1,4 @@
-CREATE FUNCTION getflagakosztowpracymrp_tpz() RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

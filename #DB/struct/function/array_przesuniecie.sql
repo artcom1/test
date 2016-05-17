@@ -1,4 +1,4 @@
-CREATE FUNCTION array_przesuniecie(_array numeric[], _przesuniecie integer) RETURNS numeric[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

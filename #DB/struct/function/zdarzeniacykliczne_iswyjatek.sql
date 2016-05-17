@@ -1,4 +1,4 @@
-CREATE FUNCTION zdarzeniacykliczne_iswyjatek(integer, timestamp with time zone) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN

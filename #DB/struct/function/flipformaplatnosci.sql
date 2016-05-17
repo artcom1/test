@@ -1,4 +1,4 @@
-CREATE FUNCTION flipformaplatnosci(integer, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

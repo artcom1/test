@@ -1,4 +1,4 @@
-CREATE FUNCTION flag_value(flag integer[], ifrom integer, icount integer) RETURNS bigint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

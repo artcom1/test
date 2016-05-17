@@ -1,4 +1,4 @@
-CREATE FUNCTION getokresykubelkasymulacyjnego(integer, integer) RETURNS TABLE(okres integer, data_od timestamp without time zone, data_do timestamp without time zone)
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

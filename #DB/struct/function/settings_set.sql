@@ -1,4 +1,4 @@
-CREATE FUNCTION settings_set(_component text, _context text, _ownertype integer, _ownerid text, _name text, _value text, _valuehash text, _flag integer) RETURNS TABLE(storeid integer, settingid integer)
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

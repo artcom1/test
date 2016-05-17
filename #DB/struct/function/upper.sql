@@ -1,4 +1,4 @@
-CREATE FUNCTION upper(boolean) RETURNS character varying
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$BEGIN RETURN $1; END;$_$;
 
@@ -6,7 +6,7 @@ CREATE FUNCTION upper(boolean) RETURNS character varying
 --
 --
 
-CREATE FUNCTION upper(double precision) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$BEGIN RETURN $1; END;$_$;
 
@@ -14,7 +14,7 @@ CREATE FUNCTION upper(double precision) RETURNS text
 --
 --
 
-CREATE FUNCTION upper(integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$BEGIN RETURN $1; END;$_$;
 
@@ -22,7 +22,7 @@ CREATE FUNCTION upper(integer) RETURNS text
 --
 --
 
-CREATE FUNCTION upper(bigint) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$BEGIN RETURN $1; END;$_$;
 
@@ -30,6 +30,6 @@ CREATE FUNCTION upper(bigint) RETURNS text
 --
 --
 
-CREATE FUNCTION upper(numeric) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$BEGIN RETURN $1; END;$_$;

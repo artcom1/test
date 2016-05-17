@@ -1,4 +1,4 @@
-CREATE FUNCTION ptowar_modify(idtowaru integer, idmagazynu integer, stan numeric, wartosc numeric, rezerwacje numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

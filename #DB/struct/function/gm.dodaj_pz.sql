@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_pz(dodaj_pz_type, boolean DEFAULT false) RETURNS dodaj_pz_rettype
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

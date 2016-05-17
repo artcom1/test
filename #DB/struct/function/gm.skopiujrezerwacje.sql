@@ -1,4 +1,4 @@
-CREATE FUNCTION skopiujrezerwacje(skopiuj_rezerwacje_type) RETURNS skopiuj_rezerwacje_rettype
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

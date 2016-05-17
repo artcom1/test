@@ -1,4 +1,4 @@
-CREATE FUNCTION setdostawarozdzial(integer, integer, numeric, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

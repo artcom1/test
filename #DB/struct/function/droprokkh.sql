@@ -1,4 +1,4 @@
-CREATE FUNCTION droprokkh(integer, boolean DEFAULT false) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

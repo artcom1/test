@@ -1,4 +1,4 @@
-CREATE FUNCTION wyliczeniestartupracy(timestamp with time zone, timestamp with time zone, numeric, integer) RETURNS timestamp with time zone
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION updatezamilosci(idelem integer, updateiloscpierw boolean DEFAULT false) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $$
  SELECT gm.updateZamIlosci(te,updateiloscpierw) FROM tg_transelem AS te WHERE te.tel_idelem=idelem;
@@ -10,7 +10,7 @@ SET search_path = public, pg_catalog;
 --
 --
 
-CREATE FUNCTION updatezamilosci(elem public.tg_transelem, updateiloscpierw boolean DEFAULT false) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

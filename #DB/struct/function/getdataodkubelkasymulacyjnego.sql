@@ -1,4 +1,4 @@
-CREATE FUNCTION getdataodkubelkasymulacyjnego(integer, integer, integer) RETURNS timestamp without time zone
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

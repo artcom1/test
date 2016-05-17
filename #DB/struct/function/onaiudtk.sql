@@ -1,4 +1,4 @@
-CREATE FUNCTION onaiudtk() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

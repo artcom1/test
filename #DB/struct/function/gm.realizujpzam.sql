@@ -1,4 +1,4 @@
-CREATE FUNCTION realizujpzam(integer, integer, integer, numeric, integer, integer DEFAULT NULL::integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

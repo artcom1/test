@@ -1,4 +1,4 @@
-CREATE FUNCTION dodajbackordernodrec(integer, integer, numeric, integer, integer, date, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -40,7 +40,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION dodajbackordernodrec(integer, integer, numeric, integer, integer, date, integer, integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

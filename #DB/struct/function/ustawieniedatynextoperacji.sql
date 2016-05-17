@@ -1,4 +1,4 @@
-CREATE FUNCTION ustawieniedatynextoperacji(timestamp without time zone, timestamp without time zone, numeric, integer) RETURNS timestamp without time zone
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

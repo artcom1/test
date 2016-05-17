@@ -1,4 +1,4 @@
-CREATE FUNCTION getbilansotwarcia(date, integer, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ----argumenty data wplywu, idbanku, wl_idwaluty, formaplatnosci
@@ -18,7 +18,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION getbilansotwarcia(text, integer, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ----argumenty data wplywu, idbanku, wl_idwaluty, formaplatnosci

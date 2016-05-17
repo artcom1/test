@@ -1,4 +1,4 @@
-CREATE FUNCTION updatevat(public.tg_transelem, public.tg_transelem) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

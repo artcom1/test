@@ -1,4 +1,4 @@
-CREATE FUNCTION mrpp_onaiudruch() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

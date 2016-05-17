@@ -1,4 +1,4 @@
-CREATE FUNCTION updatetelsprzedaz(idtrans integer, warunekupdate text, warunekwhere text, warunekorder text) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

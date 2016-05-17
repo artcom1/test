@@ -1,4 +1,4 @@
-CREATE FUNCTION getinoutsortclause(integer, text, text, boolean) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

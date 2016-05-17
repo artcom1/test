@@ -1,4 +1,4 @@
-CREATE FUNCTION touchsearchrezerwacje(idtowmag integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

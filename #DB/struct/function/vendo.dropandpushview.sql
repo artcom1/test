@@ -1,4 +1,4 @@
-CREATE FUNCTION dropandpushview(text) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

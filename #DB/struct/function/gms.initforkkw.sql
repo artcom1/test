@@ -1,4 +1,4 @@
-CREATE FUNCTION initforkkw(simid integer, kkwnod integer, idmiejsca_alltowary integer DEFAULT NULL::integer, idtowmag_alltowary integer DEFAULT NULL::integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

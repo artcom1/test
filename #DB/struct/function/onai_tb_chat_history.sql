@@ -1,4 +1,4 @@
-CREATE FUNCTION onai_tb_chat_history() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

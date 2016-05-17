@@ -1,4 +1,4 @@
-CREATE FUNCTION array_create(_low integer, _upp integer, _val numeric) RETURNS numeric[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

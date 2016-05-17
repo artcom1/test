@@ -1,4 +1,4 @@
-CREATE FUNCTION aktualizacjaprackalelem(integer, date, numeric, integer, timestamp with time zone, timestamp with time zone) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -33,7 +33,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION aktualizacjaprackalelem(integer, date, numeric, integer, timestamp with time zone, timestamp with time zone, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

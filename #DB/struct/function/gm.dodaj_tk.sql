@@ -1,4 +1,4 @@
-CREATE FUNCTION dodaj_tk(numeric, integer, integer, integer) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---WSPOK

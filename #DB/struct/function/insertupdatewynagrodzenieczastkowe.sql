@@ -1,4 +1,4 @@
-CREATE FUNCTION insertupdatewynagrodzenieczastkowe(integer, integer, integer, integer, numeric, numeric, numeric, numeric, numeric, text, date, boolean, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 BEGIN
@@ -10,7 +10,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION insertupdatewynagrodzenieczastkowe(integer, integer, integer, integer, numeric, numeric, numeric, numeric, numeric, text, date, boolean, integer, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION array_translate(_array0 numeric[], _arrayindex integer[]) RETURNS numeric[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

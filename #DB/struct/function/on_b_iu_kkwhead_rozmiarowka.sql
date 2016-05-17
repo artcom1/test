@@ -1,4 +1,4 @@
-CREATE FUNCTION on_b_iu_kkwhead_rozmiarowka() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

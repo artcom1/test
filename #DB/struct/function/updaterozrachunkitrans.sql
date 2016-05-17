@@ -1,4 +1,4 @@
-CREATE FUNCTION updaterozrachunkitrans(_idtrans integer, _idklienta integer, _idbanku integer, _kwotawal numeric, _kurs mpq, _idwaluty integer, _zamknieta integer, _flaga integer, _newflaga integer, _datadok date, _dataplatn date, _formaplat integer, _iszaliczkowa boolean, _fm_idcentrali integer, _rrno integer, _wartoscpln numeric DEFAULT NULL::numeric, _wartoscwalfn numeric DEFAULT NULL::numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

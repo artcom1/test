@@ -1,4 +1,4 @@
-CREATE FUNCTION gettowmag(integer, integer, boolean) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

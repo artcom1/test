@@ -1,4 +1,4 @@
-CREATE FUNCTION aktywujprevnext(integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -9,6 +9,7 @@ DECLARE
  _return      INT:=0;
 BEGIN
  
+ _kwh_idheadu=(SELECT kwh_idheadu FROM tr_kkwnod WHERE kwe_idelemu=_kwe_idelemu);
  _kwh_idheadu=(SELECT kwh_idheadu FROM tr_kkwnod WHERE kwe_idelemu=_kwe_idelemu);
  
  IF (COALESCE(_kwh_idheadu,0)=0) THEN

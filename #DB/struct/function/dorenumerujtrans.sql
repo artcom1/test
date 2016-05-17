@@ -1,4 +1,4 @@
-CREATE FUNCTION dorenumerujtrans(integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -12,7 +12,7 @@ END;$_$;
 --
 --
 
-CREATE FUNCTION dorenumerujtrans(integer, integer, text) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

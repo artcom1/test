@@ -1,4 +1,4 @@
-CREATE FUNCTION onbiudzdpowiazania() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

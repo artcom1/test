@@ -1,4 +1,4 @@
-CREATE FUNCTION onuceny() RETURNS opaque
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
  DECLARE

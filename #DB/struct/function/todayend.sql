@@ -1,4 +1,4 @@
-CREATE FUNCTION todayend() RETURNS timestamp with time zone
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

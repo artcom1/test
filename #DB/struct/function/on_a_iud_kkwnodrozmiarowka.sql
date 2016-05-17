@@ -1,4 +1,4 @@
-CREATE FUNCTION on_a_iud_kkwnodrozmiarowka() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE  

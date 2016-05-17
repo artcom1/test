@@ -1,4 +1,4 @@
-CREATE FUNCTION shouldescapezdarzeniatriggers() RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $$
  SELECT vendo.getTParamI('RETZDARZENIETRIGGERS',0)>0;

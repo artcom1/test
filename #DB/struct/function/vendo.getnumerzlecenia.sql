@@ -1,4 +1,4 @@
-CREATE FUNCTION getnumerzlecenia(integer) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE
@@ -15,7 +15,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION getnumerzlecenia(integer, text, text, integer, integer, text, text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

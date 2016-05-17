@@ -1,4 +1,4 @@
-CREATE FUNCTION onodlozenienarzedzia(_nrr_idruchu integer, _tel_idelem_odlozenie integer, _ilosc numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

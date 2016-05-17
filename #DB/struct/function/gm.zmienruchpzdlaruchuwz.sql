@@ -1,4 +1,4 @@
-CREATE FUNCTION zmienruchpzdlaruchuwz(simid integer, idruchuwz integer, idruchupznew integer, ilosc numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

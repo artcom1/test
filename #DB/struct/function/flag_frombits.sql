@@ -1,4 +1,4 @@
-CREATE FUNCTION flag_frombits(flag text) RETURNS integer[]
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

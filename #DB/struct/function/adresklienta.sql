@@ -1,4 +1,4 @@
-CREATE FUNCTION adresklienta(text, text, text) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

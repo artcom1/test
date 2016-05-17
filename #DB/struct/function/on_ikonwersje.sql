@@ -1,4 +1,4 @@
-CREATE FUNCTION on_ikonwersje() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION on_a_u_kkwhead_dyspozycja() RETURNS trigger
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN

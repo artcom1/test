@@ -1,4 +1,4 @@
-CREATE FUNCTION zdarzenie_isticketheader(zdi_id integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN 

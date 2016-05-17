@@ -1,4 +1,4 @@
-CREATE FUNCTION getczasefektywnykkwnodwyk(_knw_idelemu integer, _zaangazpracwyk numeric, _start timestamp without time zone, _stop timestamp without time zone, _updatezachodzacych boolean) RETURNS numeric
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

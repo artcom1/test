@@ -1,4 +1,4 @@
-CREATE FUNCTION renumeruj(integer, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE
@@ -41,7 +41,7 @@ $_$;
 --
 --
 
-CREATE FUNCTION renumeruj(date, date, integer) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

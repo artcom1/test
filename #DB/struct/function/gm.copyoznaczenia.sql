@@ -1,4 +1,4 @@
-CREATE FUNCTION copyoznaczenia(idruchusrc integer, idruchudst integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 --- Funkcja kopiuje oznaczenia na wszystkich SETID z ruchu o ID=idruchusrc 

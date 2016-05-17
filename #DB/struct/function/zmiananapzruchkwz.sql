@@ -1,4 +1,4 @@
-CREATE FUNCTION zmiananapzruchkwz(integer, numeric, numeric) RETURNS text
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 ---WSPOK

@@ -1,4 +1,4 @@
-CREATE FUNCTION changeiloscplanbrak(integer, numeric, numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $_$
 DECLARE

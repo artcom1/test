@@ -1,4 +1,4 @@
-CREATE FUNCTION kierunekrozrachunku(integer, numeric) RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql IMMUTABLE
     AS $_$
 DECLARE

@@ -1,4 +1,4 @@
-CREATE FUNCTION getidpracownika() RETURNS integer
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql STABLE
     AS $$
  SELECT vendo.gettparami('P_IDPRACOWNIKA');

@@ -1,4 +1,4 @@
-CREATE FUNCTION hasosobnyrozrachunekvat(_tr_zamknieta integer, _tr_newflaga integer, _idwaluty integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql
     AS $$
  SELECT (_idwaluty!=1) AND

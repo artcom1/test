@@ -1,4 +1,4 @@
-CREATE FUNCTION zmienruchpzdlaruchurezerwacjiciezkiej(simid integer, idruchurezc integer, idruchupznew integer, ilosc numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

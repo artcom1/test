@@ -1,4 +1,4 @@
-CREATE FUNCTION topoznaczruchn() RETURNS bigint
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql STABLE
     AS $$
  --- Funkcja zwraca SETID dla aktualnego poziomu

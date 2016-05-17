@@ -1,4 +1,4 @@
-CREATE FUNCTION flag_isoff(flag integer[], index integer) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 BEGIN 

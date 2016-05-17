@@ -1,4 +1,4 @@
-CREATE FUNCTION syncppheadelem(idheadelemu integer, idtowarundx integer, idsposobu integer, iloscop numeric, iloscopdone numeric) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE plpgsql
     AS $$
 DECLARE

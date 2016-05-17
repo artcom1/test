@@ -1,3 +1,3 @@
-CREATE FUNCTION rilike(text, text) RETURNS boolean
+CREATE OR REPLACE FUNCTION 
     LANGUAGE sql IMMUTABLE STRICT
     AS $_$select $2 ilike $1$_$;
