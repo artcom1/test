@@ -1,0 +1,13 @@
+CREATE FUNCTION ispromesafv(integer) RETURNS boolean
+    LANGUAGE plpgsql IMMUTABLE
+    AS $_$
+DECLARE
+ t1 ALIAS FOR $1;
+BEGIN
+  IF (t1&(16+4096))=16 THEN
+  RETURN TRUE;
+ ELSE
+  RETURN FALSE;
+ END IF;
+END;
+$_$;

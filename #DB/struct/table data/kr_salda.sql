@@ -1,0 +1,2 @@
+INSERT INTO kr_salda VALUES (6, 0, NULL, NULL, 0, 0, 0, 0, 0, 0, NULL, 1);
+INSERT INTO kr_salda VALUES (1, 2, NULL, NULL, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, NULL, 1);

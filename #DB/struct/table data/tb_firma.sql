@@ -1,0 +1,1 @@
+INSERT INTO tb_firma VALUES (1, 'NazwaFirmy', 'ul.AdresFirmy 1', '11-111', 'Miasto', '111-111-11-11', '45', '(11)-111-11-11', '', '(11)-111-11-11', 'www.nazwafirmy.pl', 'biuro@nazwafirmy.pl', '', 3, '', '234', '24', '234', '1945-06-27', 3, '34', '234', '342', '234', '24', '234', 'NAZWAFIRMY', NULL, NULL, NULL, 1, -4, 1, NULL);

@@ -1,0 +1,7 @@
+INSERT INTO tm_hasla VALUES (2, 'admin', 'baza', NULL, '2015-02-25 15:29:38.342336', 0);
+INSERT INTO tm_hasla VALUES (4, 'S_M', 'S_M', NULL, '2015-03-30 16:44:30.333066', 0);
+INSERT INTO tm_hasla VALUES (3, 'S_H', 'S_H', NULL, '2015-03-30 16:44:38.46066', 0);
+INSERT INTO tm_hasla VALUES (5, 'S_P', 'S_P', NULL, '2015-03-30 16:44:53.685638', 0);
+INSERT INTO tm_hasla VALUES (6, 'S_K', 'S_K', NULL, '2015-03-30 16:45:12.843166', 0);
+INSERT INTO tm_hasla VALUES (7, 'B_S', 'B_S', NULL, '2015-03-30 16:45:33.738163', 0);
+INSERT INTO tm_hasla VALUES (8, 'czytnik', 'czytnik', NULL, '2015-03-30 16:52:36.934603', 0);

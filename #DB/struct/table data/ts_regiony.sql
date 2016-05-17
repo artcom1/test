@@ -1,0 +1,17 @@
+INSERT INTO ts_regiony VALUES (0, ' Nieokreslony');
+INSERT INTO ts_regiony VALUES (1, 'ma??opolskie');
+INSERT INTO ts_regiony VALUES (23, 'dolno??l??skie');
+INSERT INTO ts_regiony VALUES (24, 'mazowieckie');
+INSERT INTO ts_regiony VALUES (25, 'kujawsko-pomorskie');
+INSERT INTO ts_regiony VALUES (26, 'lubelskie');
+INSERT INTO ts_regiony VALUES (27, 'lubuskie');
+INSERT INTO ts_regiony VALUES (28, '????dzkie');
+INSERT INTO ts_regiony VALUES (29, 'opolskie');
+INSERT INTO ts_regiony VALUES (30, 'pomorskie');
+INSERT INTO ts_regiony VALUES (31, 'podkarpackie');
+INSERT INTO ts_regiony VALUES (32, 'podlaskie');
+INSERT INTO ts_regiony VALUES (33, '??l??skie');
+INSERT INTO ts_regiony VALUES (34, '??wi??tokrzyskie');
+INSERT INTO ts_regiony VALUES (35, 'warmi??sko-mazurskie');
+INSERT INTO ts_regiony VALUES (36, 'wielkopolskie');
+INSERT INTO ts_regiony VALUES (37, 'zachodnio-pomorskie');

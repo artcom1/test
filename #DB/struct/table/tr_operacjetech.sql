@@ -1,0 +1,21 @@
+CREATE TABLE tr_operacjetech (
+    top_idoperacji integer DEFAULT nextval(('tr_operacjetech_s'::text)::regclass) NOT NULL,
+    top_nazwa text,
+    th_rodzaj integer DEFAULT 1,
+    top_flaga integer,
+    top_the_flaga integer DEFAULT 0,
+    ttw_uslugazw integer,
+    top_printteplate text,
+    top_printteplate_det text,
+    top_printteplate_kontrola text,
+    k_idklienta integer,
+    ob_idobiektu integer,
+    top_printteplate_dokumentacja text,
+    top_wyk_tjn_idjedn integer,
+    top_wyk_licznik integer DEFAULT 1,
+    top_wyk_mianownik integer DEFAULT 1,
+    top_wyk_dokladnosc integer DEFAULT 0,
+    top_printteplate_koop text,
+    top_printteplate_koopprzyj text,
+    top_nazwamakro text
+);

@@ -1,0 +1,20 @@
+CREATE TABLE tg_wynagrodzeniadok (
+    wnd_idwynagrodzenia integer DEFAULT nextval('tg_wynagrodzenia_s'::regclass) NOT NULL,
+    tr_idtrans integer,
+    p_idpracownika integer NOT NULL,
+    wnd_hashcode integer NOT NULL,
+    wnd_flaga integer DEFAULT 0 NOT NULL,
+    wnd_value1 numeric DEFAULT 0,
+    wnd_value2 numeric DEFAULT 0,
+    wnd_value3 numeric DEFAULT 0,
+    wnd_value4 numeric DEFAULT 0,
+    wnd_value5 numeric DEFAULT 0,
+    wnd_valuetxt text DEFAULT ''''::text,
+    wnd_datawyliczenia timestamp without time zone DEFAULT now(),
+    wg_idwynagrodzenia integer,
+    wnd_bduplicate smallint DEFAULT 1,
+    kwh_idheadu integer,
+    wnd_date1 date,
+    fm_idcentrali integer,
+    wnd_istmp boolean DEFAULT false
+);

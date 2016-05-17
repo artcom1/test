@@ -1,0 +1,21 @@
+CREATE TABLE kr_rozliczenia (
+    rl_idrozliczenia integer DEFAULT nextval('kr_rozrachunki_s'::regclass) NOT NULL,
+    rr_idrozrachunkul integer NOT NULL,
+    rr_idrozrachunkur integer NOT NULL,
+    rl_wartoscwall numeric NOT NULL,
+    rl_wartoscwalr numeric NOT NULL,
+    rl_wartoscplnl numeric NOT NULL,
+    rl_wartoscplnr numeric NOT NULL,
+    rl_datarozliczenia date DEFAULT now(),
+    rl_datamax date NOT NULL,
+    rl_roznicekursowel numeric DEFAULT 0,
+    rl_roznicekursower numeric DEFAULT 0,
+    p_idpracownika integer,
+    rl_rozliczenieserial integer,
+    rl_flaga integer DEFAULT 0,
+    km_idkompensaty integer,
+    rl_idrozliczenia_rk integer,
+    pp_idpe integer,
+    rl_idrozliczenia_netto integer,
+    rl_sumanettovat numeric
+);

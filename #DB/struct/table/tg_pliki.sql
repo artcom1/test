@@ -1,0 +1,22 @@
+CREATE TABLE tg_pliki (
+    tpl_idpliku integer DEFAULT nextval(('tg_pliki_s'::text)::regclass) NOT NULL,
+    tpl_notused_rodzaj smallint,
+    tpl_ref integer,
+    p_idpracownika integer,
+    tpl_rozszerzenie text,
+    tpl_opis text,
+    tpl_flaga smallint DEFAULT 0,
+    tpl_parent integer,
+    tpl_left integer,
+    tpl_right integer,
+    bd_iddata integer,
+    tpl_fullpath text,
+    tpl_notused_znaczenie integer DEFAULT 2,
+    tpl_nazwa text,
+    tpl_nrref integer,
+    tag_id integer,
+    tpl_createddate timestamp without time zone DEFAULT now(),
+    tpl_modificationdate timestamp without time zone DEFAULT now(),
+    p_idpracownikamodyf integer,
+    tpl_lockby integer
+);

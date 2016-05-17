@@ -1,0 +1,12 @@
+INSERT INTO tg_vaty VALUES (1, 0);
+INSERT INTO tg_vaty VALUES (2, 7);
+INSERT INTO tg_vaty VALUES (3, 22);
+INSERT INTO tg_vaty VALUES (-1, 0);
+INSERT INTO tg_vaty VALUES (4, 3);
+INSERT INTO tg_vaty VALUES (-2, 0);
+INSERT INTO tg_vaty VALUES (-3, 0);
+INSERT INTO tg_vaty VALUES (5, 5);
+INSERT INTO tg_vaty VALUES (6, 6);
+INSERT INTO tg_vaty VALUES (8, 23);
+INSERT INTO tg_vaty VALUES (9, 8);
+INSERT INTO tg_vaty VALUES (-4, 0);

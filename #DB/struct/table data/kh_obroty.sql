@@ -1,0 +1,9 @@
+INSERT INTO kh_obroty VALUES (2, 119, 0, 0, 0, 0, NULL, 3, 0, NULL, NULL, 0, 0, 0, 0, 0, 0);
+INSERT INTO kh_obroty VALUES (3, 131, 0, 0, 0.00, 0, 200408, 3, 0, 2, 119, 0, 1, 0, 0, 0, 0);
+INSERT INTO kh_obroty VALUES (4, 132, 0, 0, 0.00, 0, 200408, 3, 0, 2, 119, 0, 1, 0, 0, 0, 0);
+INSERT INTO kh_obroty VALUES (5, 292, 0, 0, 0, 0, NULL, 6, 0, NULL, NULL, 0, 0, 0, 0, 0, 0);
+INSERT INTO kh_obroty VALUES (18, 291, 0, 0, 0, 0, NULL, 6, 0, NULL, NULL, 0, 0, 0, 0, 0, 0);
+INSERT INTO kh_obroty VALUES (19, 373, 0, 0, 0.00, 0, 201001, 6, 0, 18, 291, 0, 1, 0, 0, 0, 0);
+INSERT INTO kh_obroty VALUES (22, 322, 0, 0, 0.00, 0, 201001, 6, 0, NULL, NULL, 0, 0, 0, 0, 0, 0);
+INSERT INTO kh_obroty VALUES (6, 374, 0, 0, 0, 0.00, 201001, 6, 0, 5, 292, 0, 1, 0, 0, 0, 0);
+INSERT INTO kh_obroty VALUES (7, 343, 0, 0, 0, 0.00, 201001, 6, 0, NULL, NULL, 0, 0, 0, 0, 0, 0);

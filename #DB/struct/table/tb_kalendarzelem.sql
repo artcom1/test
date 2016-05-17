@@ -1,0 +1,20 @@
+CREATE TABLE tb_kalendarzelem (
+    kale_idkalendarzaelem integer DEFAULT nextval('tb_kalendarzelem_s'::regclass) NOT NULL,
+    kalh_idkalendarzahead integer NOT NULL,
+    kale_dzien date,
+    kale_datautworzenia timestamp with time zone DEFAULT now(),
+    kale_pracastart timestamp with time zone,
+    kale_pracastop timestamp with time zone,
+    kale_rbhpraca numeric DEFAULT 0,
+    kale_rbhurlop numeric DEFAULT 0,
+    kale_rbhnormatyw numeric DEFAULT 0,
+    kale_rbhchorobowe numeric DEFAULT 0,
+    kale_rbhinne numeric DEFAULT 0,
+    kale_rbhobecnosc numeric DEFAULT 0,
+    kale_flaga integer DEFAULT 0,
+    kale_rodzaj integer DEFAULT 0,
+    kale_rbhstart time without time zone,
+    kale_rbhstop time without time zone,
+    zm_idzmiany integer,
+    kale_rbhodebranienadgodzin numeric DEFAULT 0
+);

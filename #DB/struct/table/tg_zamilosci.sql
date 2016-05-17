@@ -1,0 +1,22 @@
+CREATE TABLE tg_zamilosci (
+    zmi_idelemu integer DEFAULT nextval('tg_zamilosci_s'::regclass) NOT NULL,
+    tel_idelem integer,
+    tr_rodzaj integer NOT NULL,
+    tr_idtrans integer,
+    ttw_idtowaru integer,
+    zmi_if_pierw numeric DEFAULT 0,
+    zmi_if_zreal numeric DEFAULT 0,
+    zmi_if_anul numeric DEFAULT 0,
+    zmi_if_inne numeric DEFAULT 0,
+    zmi_if_aviso numeric DEFAULT 0,
+    tmg_idmagazynu integer NOT NULL,
+    zmi_if_reserved numeric DEFAULT 0,
+    zmi_if_rozdzielone numeric DEFAULT 0,
+    zmi_if_zwrotks numeric DEFAULT 0,
+    zmi_if_waitingtoreserve numeric DEFAULT 0 NOT NULL,
+    zmi_rtowaru integer NOT NULL,
+    tel_skojzestaw integer,
+    zmi_tepos smallint NOT NULL,
+    zmi_wplyw smallint NOT NULL,
+    zmi_if_inprzepakowanie numeric DEFAULT 0 NOT NULL
+);

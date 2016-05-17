@@ -1,0 +1,23 @@
+CREATE TABLE tg_klientzlecenia (
+    kz_idklienta integer DEFAULT nextval(('tg_klientzlecenia_s'::text)::regclass) NOT NULL,
+    k_idklienta integer,
+    zl_nazwa text DEFAULT ''::text NOT NULL,
+    kz_imie text,
+    kz_nazwisko text,
+    kz_nrpaszportu text,
+    kz_ulica text,
+    kz_kodpocztowy text,
+    kz_miejscowosc text,
+    kz_ilosc integer DEFAULT 0,
+    kz_opis text DEFAULT ''::text NOT NULL,
+    kz_cenajednostkowa numeric DEFAULT 0,
+    kz_cenadojazdu numeric DEFAULT 0,
+    wl_idwaluty integer DEFAULT 1 NOT NULL,
+    lk_idczklienta integer,
+    zl_idzlecenia integer NOT NULL,
+    k_idagenta integer,
+    wl_idwalutydojazdu integer,
+    st_idstatusu integer,
+    kz_mnpunktow numeric DEFAULT 1,
+    kz_flaga integer DEFAULT 0
+);

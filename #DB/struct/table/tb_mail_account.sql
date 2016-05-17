@@ -1,0 +1,21 @@
+CREATE TABLE tb_mail_account (
+    mac_id integer DEFAULT nextval('tb_mail_account_s'::regclass) NOT NULL,
+    mac_email text NOT NULL,
+    mac_ownertype integer DEFAULT 0 NOT NULL,
+    mac_p_idpracownika integer,
+    mac_dz_iddzialu integer,
+    mac_rol_id integer,
+    mac_synchtype integer DEFAULT 0 NOT NULL,
+    mac_p_idpracownika_synch integer,
+    mac_dz_iddzialu_synch integer,
+    mac_rol_id_synch integer,
+    mac_zdi_id_spr integer,
+    mac_zdp_id integer,
+    mac_tsz_idtypu integer,
+    mac_flag integer DEFAULT 0 NOT NULL,
+    mac_settings text[] DEFAULT ARRAY[]::text[] NOT NULL,
+    mac_lockby integer,
+    mac_lockdate timestamp with time zone,
+    mac_name text,
+    mac_aliases text
+);

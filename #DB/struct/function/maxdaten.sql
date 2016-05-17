@@ -1,0 +1,17 @@
+CREATE FUNCTION maxdaten(date, date) RETURNS date
+    LANGUAGE plpgsql IMMUTABLE
+    AS $_$
+BEGIN
+
+ IF ($1=NULL) THEN RETURN $2; END IF;
+ IF ($2=NULL) THEN RETURN $1; END IF;
+
+ IF ($1>$2) THEN
+  RETURN $1;
+ ELSE
+  RETURN $2;
+ END IF;
+
+ RETURN NULL;
+END;
+$_$;

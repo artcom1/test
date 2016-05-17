@@ -1,0 +1,12 @@
+INSERT INTO tg_vatykraje VALUES (1, 1, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (4, -1, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (5, 4, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (6, -2, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (7, -3, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (8, 5, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (9, 6, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (10, 8, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (11, 9, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (2, 2, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (3, 3, 3, '2079-11-29');
+INSERT INTO tg_vatykraje VALUES (12, -4, 3, '2079-11-29');

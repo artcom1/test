@@ -1,0 +1,4820 @@
+CREATE SEQUENCE tg_partie_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+SET default_tablespace = '';
+
+SET default_with_oids = true;
+
+--
+--
+
+CREATE SEQUENCE tr_dyspozycjamag_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_mail_processed_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_deferredkh_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_deferredkh_pkgid_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_dziennik_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_konta_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_kontatyp_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_kontavatowekh_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_konwersjakpir_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_lata_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_obroty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_platelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_platfifo_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_platnosci_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_predekretacjainfo_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_raportelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_raportlisc_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_raportplan_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_raportplanelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_raporty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_rejestrelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_rejestrhead_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wydrukiips_ustawienia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wymiary_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wymiaryobroty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wymiaryonkonto_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wymiarysumvalues_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wymiaryvalues_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wzorce_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wzorceelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wzorceelemkpir_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wzorceelfiltr_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wzorcekpir_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_wzorcewymiarow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_zapisskoj_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_zapisyelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_zapisyhead_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_zapisykpir_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_zledlugi_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kh_zledlugidet_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kr_conv_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kr_rozrachunki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE kr_salda_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_waluty_wl_rodzaj_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE st_amortyzacja_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE st_kontastwlatach_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE st_planst_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE st_srodkitrwale_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE st_zdarzeniast_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE t_receptura_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ta_kagenci_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_akcja_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_amortyzacja_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_api_actiongroup_access_aga_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_api_actiongroup_apg_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_api_profile_access_action_apa_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_api_profile_access_actiongroup_apga_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_api_profile_apc_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_appcustomwindows_acw_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_appwindowsstats_aws_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_assemblies_asm_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_assemblies_content_asc_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_bankirel_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_binarydata_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_biometricdata_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_chat_conversation_chc_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_chat_history_chh_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_chat_members_chm_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_chatfriends_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_chatgroup_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_chatgroupmembers_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_chatuser_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_comments_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_cyklicznosc_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_cyklwyjatki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_datalist_reports_dll_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_datalist_units_dlu_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_ecod_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_statuszlecenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_euronipy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_filtrelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_filtrhead_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_firma_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_firmaindextab_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_flowchart_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_flowchart_connections_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_flowchart_elements_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_ftphost_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_ftpuser_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_funkcjepracownikow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_googleaccounts_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_googlesynchronize_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_googlesynchronize_remove_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_hmsplat_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_kalendarzelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_kalendarzhead_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_keyscontrollers_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_klbranza_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_kliencizdarzenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_klient_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_kompensatyhand_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_kontakt_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_ludzieklienta_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_mail_account_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_mail_certificates_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_mail_data_addresses_mal_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_mail_data_attachments_data_mad_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_mail_data_attachments_mat_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_mail_data_mail_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_mail_processed_mpr_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_mail_templates_mtpl_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_maps_gpshistory_gps_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_masspayment_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_menucustomization_mci_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_multival_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_packages_arrangement_paa_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_packages_containers_pac_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_plugins_plu_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_plugins_references_pas_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_podproces_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_powiazanieklcz_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_pp_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_pracownicy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_pracownicyzdarzenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_pracownicyzlecenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_proces_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_progispedycji_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_przechowkl_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_raportgui_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_rcp_agregacja_rcpa_idagregacji_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_rcp_wydarzenia_rcp_idwydarzenia_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_relacjaprojektu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_role_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_rolepdz_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_schowektowarow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_scriptfiles_scf_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_scripts_scr_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_settings_storages_sts_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_settings_stt_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_sheetgui_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_signparams_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_tag_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_telefony_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_telemarketing_telefony_tlpr_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_todo_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_universalfiles_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_ustawieniadomprac_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_vatzal_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_vphone_history_vph_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_wiadomoscdnia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE zd_priority_upper
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zdarzenia_flags_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zdarzenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zdarzeniaco_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zdarzeniaetapzlecenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zdarzeniainfo_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zdarzeniapt_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zdarzeniaptlist_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zdarzeniastateschanges_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zdpowiazania_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tb_zlecenia_skojarzone_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tc_config_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tc_defaultpdf_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tc_ediconfig_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tc_etykiety_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tc_pdfaktualizacja_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tc_powiazaniastatusowlp_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tc_sekwencje_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tc_ustawieniapdf_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tel_skojarzony_ms
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tf_klocekparams_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tf_raport_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tf_raportklocki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tf_wyniki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tf_wyniki_seq_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_abonamelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_abonamenty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_archiwum_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_packelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_backorder_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_bilety_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_ceny_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_charklientdlatow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_czescizamienne_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_documentmasterelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_dostawaelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_dostawarozdzial_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_dostawy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_elementobiektu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_elslownika_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_eltabeli_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_etapyzlecen_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_fkalkulacji_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_grupytow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_grupywww_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_grzam_next_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_hoteleelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_hotelezlecen_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_ignorowaneeany_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_inwdetailclicks_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_inwdetails_upd
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_transelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_inwdupusty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_jednostki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_jednostkialt_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kalkulacje_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kalkulacjeval_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kartypremiowe_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kasa_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kldane_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kliencilogistyki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_klientzlecenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kompletyzlecenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_konwersje_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kpoelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kpohead_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kursdok_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_kursywalut_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_listprzewozowyzbior_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_log_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_logkltrans_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_losy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_losyanaliza_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_losyelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_loterie_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_magazyny_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_naprawyzlecenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_obiekty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_odsetki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_packhead_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_paczkaspedycyjna_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_paczkiprzewozowe_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_partie_narzedzia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_partietm_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_planzlecenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_platelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_platnosc_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_pliki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_podczepieniadoetapow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_podgrupy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_podgrupytow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_powiazaniepaczek_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_powiazanieplanu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_prace_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_praceall_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_produkcja_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_przejazdy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_raport_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_realizacjaplanuprod_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_realizacjapzam_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_rodzajtransakcji_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_rozliczdelegacja_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_rozmrodzaje_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_rozmrodzajeelems_idindextab_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_ruchy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_ruchy_seqid
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_skladnikizestawu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_slownik_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_stanyother_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_stanytowmagazyn_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_statusyhistoria_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_statystykazapytan_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_swiadectwa_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_swiadruchy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_tabelavalues_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_tabele_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_tecontrol_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_teex_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_tkelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_towary_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_towaryloterii_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_towaryzlecotwartego_tzt_idtowaruzlec_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_towmag_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_transakcje_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_transport_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_treemembers_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_trees_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_udzielonerabaty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_vaty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_vatykraje_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_vatytowarow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_voucher_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_wskrez_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_wsktkelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_wynagrodzenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_wynagrodzeniahand_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_zamiennikitow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_zamilosci_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_zlecenia_numer_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_zlecenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_zmianacenypz_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tg_zmianycenzakupu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tl_tmptowary_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tl_tmptowarydel_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_customcols_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_debuglog_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_mobileids_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_hasla_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_inserty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tma_idmail_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_mediainfo_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_mobileidsseq_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_mobileprofiles_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_przynaleznosci_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_uprawnienia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE to_orders_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_etappolproduktu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_kkwelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_kkwhead_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_kkwplan_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_kkwrecrozchodu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_mozliwestanowiska_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_planonkkw_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_polprodukty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_ruchy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_stanowiskapracy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_wydzialy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tp_wypal_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_brygadaelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_ciagtech_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_harmonogram_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kkwhead_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kkwheadrozm_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kkwnod_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kkwnodplan_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kkwnodprevnext_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kkwnodwyk_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kkwnodwykdet_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kkwnodwykdetkooperacja_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kubelki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_kubelkisymulacyjne_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_matrycaumiejetnosci_mau_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_mrppalety_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_narzedzie_ruch_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_narzedzie_wyk_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_nodrec_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_operacjetech_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_pomiary_definicje_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_pomiary_powiazania_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_pomiary_wykonanie_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_powiazanieplanprzychod_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_pracochlonnosc_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_zmiany_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_pracownicykubelka_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_przeliczeniestruktur_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_przyczynaprzestojow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_rrozchodu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_ruchy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_spinaczoperacji_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_strukturaid_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_strukturakon_wersja
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_strukturakonstrukcyjna_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_technoelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_technoelemwsp_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_technogrupy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_technologie_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_technoprevnext_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_technostpracy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_wariantelem_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tr_warianthead_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_banki_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_bledy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_branze_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_charakter_towaru_raben_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_dniustawowowolne_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_drzewa_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_dzialy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_efekt_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_elementyrodzajuobiektu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_etapkkw_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_formaplat_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_funkcjepracownikow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_grupycen_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_grupysrtrw_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_hotelestruktura_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_imprezy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_kartotekadelegacji_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_kodyodpadu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_kontavoip_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_miejscamagazynowe_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_multivalues_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_nazwarejestru_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_operacjagoskpir_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_osrodkipk_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_pcns_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_powiaty_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_powiazaniapnapni_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_profile_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_przyczynaawarii_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_punktywydaniaeprzesylek_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rabatykwotowe_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_regiony_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rodzajabonamentu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rodzajakcji_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rodzajarchiwum_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rodzajebledow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rodzajeobiektow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rodzajeodsetek_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rodzajklienta_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rodzajkontaktu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rozmiarykubelkow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_rozne_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_samochody_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_schematexpplat_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_schematy_wymiany_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_seriepracownikow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_slownikkolornika_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_slownikwykonania_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_spedycje_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_sposobprzechowania_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_stanowisko_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_statusklienta_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_statustransportu_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_statusy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_statusyzachowanie_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_szablonzdarzenia_szd_idszablonu_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_tabelakursow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_typdostawcyalt_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_typpaczkispedycyjnej_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_typspotkania_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_typspzakup_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_typzdarzenia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_wagiklienta_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_wlascicielefirmy_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_wplywdecyzje_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_wymaganiataboru_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_zmiennedoskryptow_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_znacznikprt_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_zrodloinf_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE ts_zwrotgrzeczn_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tu_impplat_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tu_numeryseryjne_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tu_uprawnienia_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tu_version_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tu_zalogowani_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    MAXVALUE 2147483647
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tvs_services_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE zd_priority_lower
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+SET search_path = qopt, pg_catalog;

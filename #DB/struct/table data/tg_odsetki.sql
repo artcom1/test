@@ -1,0 +1,3 @@
+INSERT INTO tg_odsetki VALUES (2, '2002-07-25', '2003-01-31', 16.00, 365, 0, 0);
+INSERT INTO tg_odsetki VALUES (3, '2003-02-01', '2003-09-24', 13.00, 365, 0, 0);
+INSERT INTO tg_odsetki VALUES (4, '2003-09-25', '2079-11-29', 12.25, 365, 0, 0);

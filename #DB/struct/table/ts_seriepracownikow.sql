@@ -1,0 +1,22 @@
+CREATE TABLE ts_seriepracownikow (
+    sp_idserie integer DEFAULT nextval(('ts_seriepracownikow_s'::text)::regclass) NOT NULL,
+    p_idpracownika integer,
+    bk_idbanku integer,
+    sp_seria character varying(4),
+    tmg_idmagazynu integer,
+    tmg_idmagazynupod integer,
+    r_idrodzaju integer,
+    fm_index integer,
+    thg_idgrupy integer,
+    dz_iddzialu integer,
+    zd_rodzaj integer,
+    tgc_idgrupy integer,
+    zl_rodzaj integer,
+    wl_idwaluty integer,
+    kalh_rodzaj integer,
+    tmg_idmagazynutech integer,
+    mac_id integer,
+    tgc_idgrupy_maxrabat integer,
+    tgc_maxrabat numeric,
+    tsz_idtypu integer
+);

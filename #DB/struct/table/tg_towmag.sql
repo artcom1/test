@@ -1,0 +1,23 @@
+CREATE TABLE tg_towmag (
+    ttm_idtowmag integer DEFAULT nextval(('tg_towmag_s'::text)::regclass) NOT NULL,
+    ttw_idtowaru integer DEFAULT 1,
+    tmg_idmagazynu integer DEFAULT 1,
+    ttm_cenasr numeric DEFAULT 0,
+    ttm_cenasp numeric DEFAULT 0,
+    ttm_wartosc numeric DEFAULT 0,
+    ttm_stan numeric DEFAULT 0,
+    ttm_ostcena numeric DEFAULT 0,
+    ttm_bilanstk numeric DEFAULT 0,
+    ttm_flaga smallint DEFAULT 0,
+    ttm_rezerwacja numeric DEFAULT 0,
+    ttm_sumkwm numeric DEFAULT 0,
+    ttm_bkorderplus numeric DEFAULT 0,
+    ttm_bkorderminus numeric DEFAULT 0,
+    ttm_idostwaluty integer,
+    ttm_lastchange timestamp without time zone DEFAULT now(),
+    ttm_mmwdrodze numeric DEFAULT 0,
+    ttm_ostcenanab numeric,
+    ttm_rezlekka numeric DEFAULT 0,
+    ttm_idxref integer,
+    ttm_rtowaru integer NOT NULL
+);

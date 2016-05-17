@@ -1,0 +1,13 @@
+CREATE FUNCTION ispromesapz(integer) RETURNS boolean
+    LANGUAGE plpgsql IMMUTABLE
+    AS $_$
+DECLARE
+ t1 ALIAS FOR $1;
+BEGIN
+  IF (t1&(4+4096))=4 THEN
+  RETURN TRUE;
+ ELSE
+  RETURN FALSE;
+ END IF;
+END;
+$_$;

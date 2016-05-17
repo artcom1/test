@@ -1,0 +1,2 @@
+INSERT INTO ts_spedycje VALUES (0, 'Kurier DHL', 0, 0, NULL, NULL, NULL, NULL, 1, NULL, NULL, 'Nr referencyjny 1:', 'Nr referencyjny 2:', 0, 0, NULL, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, NULL, '{{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}', NULL, NULL);
+INSERT INTO ts_spedycje VALUES (1, 'Odbior w??asny', 0, 0, NULL, NULL, NULL, NULL, 1, NULL, NULL, 'Nr referencyjny 1:', 'Nr referencyjny 2:', 0, 0, NULL, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, NULL, '{{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}', NULL, NULL);

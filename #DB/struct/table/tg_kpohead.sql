@@ -1,0 +1,23 @@
+CREATE TABLE tg_kpohead (
+    kpo_idheadu integer DEFAULT nextval('tg_kpohead_s'::regclass) NOT NULL,
+    ro_idrodzaju integer,
+    kpo_seria character varying(4),
+    kpo_rok character varying(2),
+    kpo_numer integer,
+    kpo_idklienta1 integer,
+    kpo_idklienta2 integer,
+    kpo_idklienta3 integer,
+    kpo_idklienta4 integer,
+    p_idpracownika integer,
+    kpo_data date,
+    kpo_numerpojazdu text,
+    kpo_uwagi text,
+    kpo_nrobcy text,
+    ko_idkodu integer,
+    fm_idcentrali integer,
+    kpo_waga numeric DEFAULT 0,
+    kpo_flaga integer,
+    st_idstatusu integer,
+    tr_idtrans integer,
+    fm_index integer NOT NULL
+);

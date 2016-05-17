@@ -1,0 +1,10 @@
+INSERT INTO tc_defaultpdf VALUES (32, 7, 2);
+INSERT INTO tc_defaultpdf VALUES (34, 40, 2);
+INSERT INTO tc_defaultpdf VALUES (41, 43, 2);
+INSERT INTO tc_defaultpdf VALUES (75, 61, 2);
+INSERT INTO tc_defaultpdf VALUES (73, 59, 2);
+INSERT INTO tc_defaultpdf VALUES (84, 65, 2);
+INSERT INTO tc_defaultpdf VALUES (80, 63, 2);
+INSERT INTO tc_defaultpdf VALUES (46, 19, 2);
+INSERT INTO tc_defaultpdf VALUES (2, 33, 2);
+INSERT INTO tc_defaultpdf VALUES (30, 39, 2);

@@ -1,0 +1,6 @@
+INSERT INTO ts_szablonzdarzenia VALUES (86, 'Dokument', 5, 20, 2, '{NUMER}', '', 0, NULL, 8, NULL, NULL, 3, NULL, 2, 0, 0, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL);
+INSERT INTO ts_szablonzdarzenia VALUES (1, 'Etap zlec. serwis - Etap serwisu', 5, NULL, 0, '{Zlecenie.Numer} - {Etap}', '', 0, NULL, 0, NULL, NULL, 5, 0, 0, 0, 6, 0, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 16, 'zlec');
+INSERT INTO ts_szablonzdarzenia VALUES (2, 'Etap zlec. produkcja - Etap produkcji', 5, NULL, 0, '{Zlecenie.Numer} - {Etap}', '', 0, NULL, 0, NULL, NULL, 5, 0, 0, 0, 6, 0, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 17, 'zlec');
+INSERT INTO ts_szablonzdarzenia VALUES (3, 'Etap zlec. turystyka - Etap imprezy', 5, NULL, 0, '{Zlecenie.Numer} - {Etap}', '', 0, NULL, 0, NULL, NULL, 5, 0, 0, 0, 6, 0, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 18, 'zlec');
+INSERT INTO ts_szablonzdarzenia VALUES (4, 'Etap zlec. akcja market. - Etap akcji', 1, NULL, 0, '{Zlecenie.Numer} - {Etap}', '', 0, NULL, 0, NULL, NULL, 5, 0, 0, 0, 6, 0, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 19, 'zlec');
+INSERT INTO ts_szablonzdarzenia VALUES (5, 'Etap zlec. proc. sprzed. - Etap procesu', 5, NULL, 0, '{Zlecenie.Numer} - {Etap}', '', 0, NULL, 0, NULL, NULL, 5, 0, 0, 0, 6, 0, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 20, 'zlec');

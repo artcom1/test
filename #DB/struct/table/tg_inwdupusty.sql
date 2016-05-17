@@ -1,0 +1,23 @@
+CREATE TABLE tg_inwdupusty (
+    iu_idinwdupusty integer DEFAULT nextval(('tg_inwdupusty_s'::text)::regclass) NOT NULL,
+    k_idklienta integer DEFAULT 0,
+    tgr_idgrupy integer DEFAULT 0,
+    ttw_idtowaru integer DEFAULT 0,
+    iu_odkiedy date DEFAULT now(),
+    iu_dokiedy date,
+    iu_upust numeric DEFAULT 0,
+    iu_rodzaj integer DEFAULT 0,
+    a_idakcji integer,
+    rk_idrodzajklienta integer DEFAULT 0,
+    tgc_idgrupy smallint,
+    wl_idwaluty integer,
+    iu_idopakowania integer,
+    iu_idjednostki integer,
+    iu_odilosci numeric DEFAULT 0,
+    iu_aptype smallint DEFAULT 0,
+    pl_formaplat integer,
+    iu_upoziom smallint DEFAULT 0,
+    iu_datautw timestamp without time zone DEFAULT now() NOT NULL,
+    p_idtworcy integer,
+    szt_id integer
+);

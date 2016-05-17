@@ -1,0 +1,11 @@
+INSERT INTO tm_rodzajezleceninfo VALUES (0, 'SERV', 'Zlecenie serwisowe');
+INSERT INTO tm_rodzajezleceninfo VALUES (1, 'ZLP', 'Zlecenie produkcyjne');
+INSERT INTO tm_rodzajezleceninfo VALUES (10, 'ZAO', 'Zam??wienie otwarte');
+INSERT INTO tm_rodzajezleceninfo VALUES (2, 'PROC', 'Proces sprzeda??y');
+INSERT INTO tm_rodzajezleceninfo VALUES (3, 'AKC', 'Akcja marketingowa');
+INSERT INTO tm_rodzajezleceninfo VALUES (4, 'TUR', 'Impreza');
+INSERT INTO tm_rodzajezleceninfo VALUES (5, 'PROJ', 'Projekt');
+INSERT INTO tm_rodzajezleceninfo VALUES (6, 'WYN', 'Umowa najmu');
+INSERT INTO tm_rodzajezleceninfo VALUES (7, 'ZLK', 'Zlecenie ksi??gowe');
+INSERT INTO tm_rodzajezleceninfo VALUES (8, 'ZKD', 'Zlecenie kontroli dostawy');
+INSERT INTO tm_rodzajezleceninfo VALUES (9, 'KSPROC', 'Ksi??ga procedur');

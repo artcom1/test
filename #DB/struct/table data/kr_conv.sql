@@ -1,0 +1,1 @@
+INSERT INTO kr_conv VALUES (2, 2, 116, NULL, NULL, 0, 3.66, 0, 3.66, 1, 0, NULL, NULL);

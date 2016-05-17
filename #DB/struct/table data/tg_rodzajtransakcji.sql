@@ -1,0 +1,10 @@
+INSERT INTO tg_rodzajtransakcji VALUES (2, 1, 'FV', '   S');
+INSERT INTO tg_rodzajtransakcji VALUES (33, 0, 'PZ', '   S');
+INSERT INTO tg_rodzajtransakcji VALUES (34, 10, 'KPZ', '   S');
+INSERT INTO tg_rodzajtransakcji VALUES (35, 11, 'KFV', '   S');
+INSERT INTO tg_rodzajtransakcji VALUES (36, 2, 'WZ', '   S');
+INSERT INTO tg_rodzajtransakcji VALUES (37, 12, 'KWZ', '   S');
+INSERT INTO tg_rodzajtransakcji VALUES (38, 6, 'MM-', '   S');
+INSERT INTO tg_rodzajtransakcji VALUES (39, 8, 'MM+', '   S');
+INSERT INTO tg_rodzajtransakcji VALUES (40, 7, 'PR', '   S');
+INSERT INTO tg_rodzajtransakcji VALUES (41, 17, 'KPR', '   S');

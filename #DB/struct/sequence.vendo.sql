@@ -1,0 +1,50 @@
+CREATE SEQUENCE tm_numeryseryjne_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_numeryseryjne_hash
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_vorders_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tm_vusers_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+--
+
+CREATE SEQUENCE tmp_viewspushed_s
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;

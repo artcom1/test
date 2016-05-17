@@ -1,0 +1,200 @@
+INSERT INTO tb_zdarzeniainfo VALUES (10011, 'SPR-ZT', 'Sprawa - Turystyka', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=2;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10010, 'SPR-ZP', 'Sprawa - Produkcja', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=2;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10012, 'SPR-ZD-SERW', 'Sprawa - Zdarzenie serwisowe', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=2;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10004, 'SPR-PGD', 'Sprawa - Przeglad', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=2;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10009, 'SPR-MK', 'Sprawa - Moja kontrola', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=2;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10000, 'SPR-INF', 'Sprawa - Informacja', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=2;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10, 'ZP', 'Produkcja', '[0:1]={768,8192}', '[0:47]={"Zdarzenie produkcyjne","Zdarze?? produkcyjnych","Zdarzeniu produkcyjnemu","Zdarzenie produkcyjne","Zdarzeniem produkcyjnym","Zdarzeniu produkcyjnym","Zdarzenia produkcyjne","Zdarzenia produkcyjne",zdarzenie_produkcyjne,"","","","","","",-1,ZP,0,Nazwa,Uwagi,"","","","","","","",0=1;1=1;2=0;3=0;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=0;14=0;15=2;16=2;17=1;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (12, 'ZD-SERW', 'Zdarzenie serwisowe', '[0:1]={0,16384}', '[0:47]={"Zdarzenie serwisowe","Zdarzenia serwisowego","Zdarzeniu serwisowemu","Zdarzenie serwisowe","Zdarzeniem serwisowym","Zdarzeniu serwisowym","Zdarzenia serwisowe","Zdarzenia serwisowe",zdarzenie_serwisowe,"","","","","","","",NULL,"",Nazwa,"","","","","","","","",0=1;1=1;2=0;3=0;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=0;14=0;15=2;16=2;17=2;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (4, 'PGD', 'Przeglad', '[0:1]={129024,16384}', '[0:47]={Przegl??d,Przegl??du,Przegl??dowi,Przegl??d,Przegl??dem,Przegl??dzie,Przegl??dy,Przegl??dy,Przeglad,"","","","",3,"",-1,PRZ,3,"","","","","","","","","",0=1;1=1;2=0;3=0;4=2;5=0;6=1;7=2;8=0;9=0;10=0;11=0;12=1;13=0;14=0;15=2;16=2;17=2;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (11, 'EV', 'Event', '[0:1]={1078194624,32787}', '[0:47]={Event,Eventu,Eventowi,Event,Eventem,Evencie,Eventy,Event,zdarzenie_turystyczne,"","","","",22,"",-1,ZT,0,Nazwa,Uwagi,"","","","","","","",0=1;1=1;2=0;3=0;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=0;14=0;15=2;16=2;17=2;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10001, 'SPR-KON', 'Sprawa - Kontakt', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=2;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10003, 'SPR-NOT', 'Sprawa - Notatka', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=2;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10002, 'SPR-KOR', 'Sprawa - Korespondencja', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=2;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10013, 'SPR-MAIL', 'Sprawa - Mail', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=0;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=0;14=0;15=2;16=2;17=2;18=2;19=1;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (9, 'MK', 'Moja kontrola', '[0:1]={2,64}', '[0:47]={"Moja kontrola","Mojej kontroli","Mojej kontroli","Moj?? kontrol??","Moj?? kontrol??","Mojej kontroli","Moje kontrole","Moje kontrole",MojeKontrole,"",NULL,NULL,NULL,NULL,"",-1,MK,0,"","","","","","","","","",0=1;1=1;2=0;3=0;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=0;14=0;15=0;16=2;17=2;18=2;19=1;,"","","","","","","","","","","","","",5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (8, 'SPR', 'Sprawa', '[0:1]={0,65473}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,NULL,NULL,NULL,NULL,NULL,NULL,-1,SPR,0,NULL,NULL,NULL,NULL,Odpowiedzialny,NULL,NULL,NULL,NULL,0=1;1=1;2=0;3=0;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=0;14=0;15=2;16=2;17=2;18=2;19=1;,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,10,NULL,1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (0, 'INF', 'Informacja', '[0:1]={319092923,65475}', '[0:47]={Informacja,Informacji,Informacji,Informacj??,Informacj??,Informacji,Informacje,Informacje,informacja,"{RODZAJ}: {KLIENT_DOM.KLIENT.Kod} - {NUMER}","","","",16,"",0,INF,3,"","","","","","","","","",0=2;1=1;2=1;3=0;4=0;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=0;14=0;15=2;16=2;17=2;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (3, 'NOT', 'Notatka', '[0:1]={319092927,65475}', '[0:47]={Notatka,Notatki,Notatce,Notatk??,Notatk??,Notatce,Notatki,Notatki,notatka,"{RODZAJ}: {KLIENT_DOM.KLIENT.Kod} - {NUMER}","","","",19,"",2,NOT,3,"","","","",Wykonuj??cy,"","","","",0=2;1=1;2=1;3=0;4=0;5=1;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=0;14=0;15=2;16=2;17=2;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (13, 'MAIL', 'Mail', '[0:1]={8454400,524352}', '[0:47]={"","","","","","","","",NULL,"","","","","","","",NULL,"","","","","","","","","",NULL,0=0;1=0;2=0;3=0;4=0;5=0;6=0;7=0;8=0;9=0;10=0;11=0;12=0;13=0;14=0;15=0;16=0;17=0;18=0;19=0;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (2, 'KOR', 'Korespondencja', '[0:1]={8714648,67}', '[0:47]={Korespondencja,Korespondencji,Korespondencji,Korespondencj??,Korespondencj??,Korespondencji,Korespondencja,Sekretariat,Korespondencja,"","","","",18,"",-1,NULL,3,"","",Z/DO,"","","","","",NULL,0=2;1=1;2=1;3=0;4=0;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=0;14=0;15=2;16=2;17=2;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10005, 'SPR-ZAD', 'Sprawa - Zadanie', '[0:1]={0,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,"","","","",NULL,"",-1,SPR,0,"","","","",Odpowiedzialny,"","","",1,0=1;1=1;2=0;3=0;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=0;17=1;18=2;19=2;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (1, 'KON', 'Kontakt', '[0:1]={117963215,65475}', '[0:47]={Kontakt,Kontaktu,Kontaktowi,Kontakt,Kontaktem,Kontakcie,Kontakty,Kontakty,kontakt,"{RODZAJ}: {KLIENT_DOM.KLIENT.Kod} - {NUMER}","","","",17,"",1,KON,3,"","","","",Wykonuj??cy,"","","",1,0=1;1=1;2=1;3=0;4=0;5=1;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=2;17=2;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (5, 'ZAD', 'Zadanie', '[0:1]={124255183,65475}', '[0:47]={Zadanie,Zadania,Zadaniu,Zadanie,Zadaniem,Zadaniu,Zadania,Zadania,zadanie,"{RODZAJ}: {WPISUJACY.Login} - {NUMER}","","","",20,"",3,ZAD,3,"","","","","","","","",1,0=1;1=1;2=1;3=0;4=2;5=0;6=1;7=0;8=0;9=0;10=0;11=0;12=2;13=2;14=2;15=2;16=2;17=1;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (14, 'DKL', 'Deklaracja', '[0:1]={16814336,4096}', '[0:47]={"","","","","","","","",NULL,"{RODZAJ} - {NUMER}","","","","","","",NULL,5,"","","","","","","","",1,0=1;1=0;2=0;3=0;4=2;5=2;6=0;7=2;8=0;9=0;10=2;11=2;12=2;13=0;14=2;15=0;16=0;17=2;18=2;19=1;20=0;,"","","","","","","","","","","","","","","","","",NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');
+INSERT INTO tb_zdarzeniainfo VALUES (10014, 'SPR-DKL', 'Sprawa - Deklaracja', '[0:1]={266240,65472}', '[0:47]={Sprawa,Sprawy,Sprawie,Spraw??,Spraw??,Sprawie,Sprawy,Sprawy,Sprawa,"","","","",NULL,"",-1,SPR,0,"","","","",Odpowiedzialny,"",5,"",1,0=1;1=1;2=0;3=0;4=2;5=2;6=1;7=2;8=0;9=0;10=2;11=2;12=2;13=0;14=0;15=2;16=2;17=2;18=2;19=1;20=0;,"","","","","","","","","","","","","",5,10,"",1,NULL,"{TEMAT}
+{DATA_ROZP}
+{WLASCICIEL_NAZWA}","{TEMAT}
+{KLIENT.NAZWA}
+{KLIENT.ADRESFULL}
+{KLIENT.KODPOCZTOWY}, {KLIENT.MIEJSCOWOSC}
+{CZLOWIEKKLIENTA.IMIENAZWISKO}
+{CZLOWIEKKLIENTA.KOMORKA}"}');

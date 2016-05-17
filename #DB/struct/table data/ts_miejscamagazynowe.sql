@@ -1,0 +1,1 @@
+INSERT INTO ts_miejscamagazynowe VALUES (1, NULL, 1, 2, 'A', 'A', 0, NULL, 1, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, NULL, 0.0000, 0.0000, 0.0000, true, NULL, true, 0, NULL, NULL, 1);

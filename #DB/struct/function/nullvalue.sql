@@ -1,0 +1,10 @@
+CREATE FUNCTION nullvalue(integer) RETURNS boolean
+    LANGUAGE plpgsql IMMUTABLE
+    AS $_$
+BEGIN
+ IF ($1 IS NULL) THEN
+  RETURN TRUE;
+ END IF;
+ RETURN FALSE;
+END
+$_$;

@@ -1,0 +1,20 @@
+CREATE TABLE tb_vphone_history (
+    vph_id integer NOT NULL,
+    vph_user_number text NOT NULL,
+    vph_user_employee integer NOT NULL,
+    vph_caller_number text,
+    vph_caller_employee integer,
+    vph_caller_client integer,
+    vph_caller_clientperson integer,
+    vph_transfer_number text,
+    vph_transfer_employee integer,
+    vph_transfer_client integer,
+    vph_transfer_clientperson integer,
+    vph_work integer,
+    vph_event integer,
+    vph_start timestamp with time zone NOT NULL,
+    vph_end timestamp with time zone,
+    vph_status integer,
+    vph_description text,
+    vph_flag integer DEFAULT 0 NOT NULL
+);
