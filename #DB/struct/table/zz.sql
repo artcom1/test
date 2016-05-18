@@ -1,4 +1,5 @@
 CREATE TABLE zz (
     a integer,
-    b text
+    b text,
+    c text
 );
