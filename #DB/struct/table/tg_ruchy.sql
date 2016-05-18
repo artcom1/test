@@ -39,6 +39,3 @@ CREATE TABLE tg_ruchy (
     CONSTRAINT checkwspwartosci CHECK ((rc_wspwartosci = ANY (ARRAY[1, '-1'::integer]))),
     CONSTRAINT tg_ruchy_checkdostawaandruchpz CHECK (((rc_wspmag = 0) OR ((rc_dostawa IS NOT NULL) AND (rc_ruchpz IS NOT NULL)) OR iskwm(rc_flaga)))
 );
-
-
-SET search_path = gm, pg_catalog;

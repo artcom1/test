@@ -81,6 +81,3 @@ CREATE VIEW kv_raport_vat_o AS
           WHERE (rbs.tel_zaokl <> 0)
           GROUP BY rbs.tr_idtrans, tg_transakcje.tr_zamknieta) t
   GROUP BY t.tr_idtrans;
-
-
-SET search_path = vendo, pg_catalog;

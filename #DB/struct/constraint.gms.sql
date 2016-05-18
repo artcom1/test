@@ -56,6 +56,3 @@ ALTER TABLE ONLY tm_simwz
 
 ALTER TABLE ONLY tm_touse
     ADD CONSTRAINT tm_touse_pkey PRIMARY KEY (stu_id);
-
-
-SET search_path = mv, pg_catalog;

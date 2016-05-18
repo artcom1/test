@@ -215,6 +215,3 @@ ALTER TABLE ONLY tr_matrycaumiejetnosci ALTER COLUMN mau_id SET DEFAULT nextval(
 --
 
 ALTER TABLE ONLY ts_szablonzdarzenia ALTER COLUMN szd_idszablonu SET DEFAULT nextval('ts_szablonzdarzenia_szd_idszablonu_seq'::regclass);
-
-
-SET search_path = gm, pg_catalog;

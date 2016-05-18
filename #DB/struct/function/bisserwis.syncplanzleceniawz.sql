@@ -57,6 +57,3 @@ BEGIN
 
  RETURN TRUE; 
 END;$_$;
-
-
-SET search_path = gm, pg_catalog;

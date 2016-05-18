@@ -41,6 +41,3 @@ CREATE INDEX qopt_tg_exdetails_i1 ON tg_exdetails USING btree (lexp_id);
 --
 
 CREATE INDEX qopt_tg_explains_i1 ON tg_explains USING btree (lg_id);
-
-
-SET search_path = vat, pg_catalog;

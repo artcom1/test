@@ -6,7 +6,6 @@ CREATE SEQUENCE tg_rezstack_ver
     CACHE 1;
 
 
-SET search_path = public, pg_catalog;
 
 --
 --

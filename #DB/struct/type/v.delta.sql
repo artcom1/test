@@ -4,6 +4,3 @@ CREATE TYPE delta AS (
 	value_new numeric,
 	id_new integer
 );
-
-
-SET search_path = vendo, pg_catalog;

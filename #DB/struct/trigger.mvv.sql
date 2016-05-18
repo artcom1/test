@@ -293,6 +293,3 @@ CREATE TRIGGER onaiudmultivalt AFTER INSERT OR DELETE OR UPDATE ON tr_pomiary_de
 --
 
 CREATE TRIGGER onaiudmultivalt AFTER INSERT OR DELETE OR UPDATE ON tr_pomiary_wykonanie_mv FOR EACH ROW EXECUTE PROCEDURE public.onaiudnewmultivalues('435', 'pw_idpomiarukkw');
-
-
-SET search_path = public, pg_catalog;

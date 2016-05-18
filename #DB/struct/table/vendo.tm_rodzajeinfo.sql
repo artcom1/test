@@ -3,6 +3,3 @@ CREATE TABLE tm_rodzajeinfo (
     tr_skrot text,
     tr_nazwa text
 );
-
-
-SET search_path = qv, pg_catalog;

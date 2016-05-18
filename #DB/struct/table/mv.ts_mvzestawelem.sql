@@ -3,6 +3,3 @@ CREATE TABLE ts_mvzestawelem (
     mvz_idzestawu integer NOT NULL,
     mvs_id integer NOT NULL
 );
-
-
-SET search_path = mvv, pg_catalog;

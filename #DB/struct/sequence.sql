@@ -4815,6 +4815,3 @@ CREATE SEQUENCE zd_priority_lower
     NO MINVALUE
     NO MAXVALUE
     CACHE 1;
-
-
-SET search_path = qopt, pg_catalog;

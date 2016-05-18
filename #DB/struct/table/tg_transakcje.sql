@@ -96,6 +96,3 @@ CREATE TABLE tg_transakcje (
     bk_idbankupln integer,
     p_zamykajacy integer
 );
-
-
-SET search_path = gm, pg_catalog;

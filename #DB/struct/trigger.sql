@@ -5831,6 +5831,3 @@ CREATE TRIGGER z_recchange_id AFTER INSERT OR DELETE ON kr_rozrachunki FOR EACH 
 --
 
 CREATE TRIGGER z_recchange_u AFTER UPDATE ON kr_rozrachunki FOR EACH ROW WHEN ((new.* IS DISTINCT FROM old.*)) EXECUTE PROCEDURE onchangerozrachunekiud();
-
-
-SET search_path = gm, pg_catalog;

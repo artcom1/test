@@ -22,6 +22,3 @@ BEGIN
  RETURN TRUE;
 END;
 $$;
-
-
-SET search_path = mv, pg_catalog;

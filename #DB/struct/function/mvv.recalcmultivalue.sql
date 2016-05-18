@@ -8,6 +8,3 @@ DECLARE
 BEGIN 
  RETURN vendo.addonbeforecommitorder(1<<2,_typtabeli::text||'|'||_id::text||'|'||nazwaZmiennej);
 END; $_$;
-
-
-SET search_path = public, pg_catalog;

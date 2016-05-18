@@ -41,6 +41,3 @@ BEGIN
  RETURN _t.v_id;
 END;
 $_$;
-
-
-SET search_path = vendo, pg_catalog;

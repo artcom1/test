@@ -103,6 +103,3 @@ CREATE SEQUENCE tmp_sequence
     NO MINVALUE
     NO MAXVALUE
     CACHE 1;
-
-
-SET search_path = mv, pg_catalog;

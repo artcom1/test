@@ -2621,6 +2621,3 @@ SELECT pg_catalog.setval('zd_priority_lower', 1, false);
 --
 
 SELECT pg_catalog.setval('zd_priority_upper', 9, true);
-
-
-SET search_path = qopt, pg_catalog;

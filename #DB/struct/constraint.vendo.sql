@@ -49,6 +49,3 @@ ALTER TABLE ONLY tm_vorders
 
 ALTER TABLE ONLY tmp_viewspushed
     ADD CONSTRAINT tmp_viewspushed_pkey PRIMARY KEY (id);
-
-
-SET search_path = gm, pg_catalog;

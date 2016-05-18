@@ -54,6 +54,3 @@ CREATE VIEW konta AS
     a.kt_opis,
     a.idcentrali
    FROM kontainex a;
-
-
-SET search_path = qv, pg_catalog;

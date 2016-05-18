@@ -56,6 +56,3 @@ BEGIN
  RETURN nadmiar;
 END;
 $_$;
-
-
-SET search_path = gmr, pg_catalog;

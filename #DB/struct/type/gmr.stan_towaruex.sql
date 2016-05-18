@@ -8,6 +8,3 @@ CREATE TYPE stan_towaruex AS (
 	stanh_real numeric,
 	stanh_real_inop numeric
 );
-
-
-SET search_path = gms, pg_catalog;

@@ -7084,6 +7084,3 @@ ALTER TABLE ONLY tu_impplatelem
 
 ALTER TABLE ONLY tb_zdarzenia_flags
     ADD CONSTRAINT zd_idzdarzenia_fk FOREIGN KEY (zd_idzdarzenia) REFERENCES tb_zdarzenia(zd_idzdarzenia) ON UPDATE CASCADE ON DELETE CASCADE;
-
-
-SET search_path = qopt, pg_catalog;

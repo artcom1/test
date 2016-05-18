@@ -23,6 +23,3 @@ SELECT pg_catalog.setval('tm_vusers_s', 167, true);
 --
 
 SELECT pg_catalog.setval('tmp_viewspushed_s', 25, true);
-
-
-SET search_path = gm, pg_catalog;

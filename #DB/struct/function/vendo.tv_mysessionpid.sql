@@ -23,6 +23,3 @@ BEGIN
  RETURN ret;
 END;
 $$;
-
-
-SET search_path = gm, pg_catalog;

@@ -39,6 +39,3 @@ BEGIN
  RETURN retid;
 END;
 $_$;
-
-
-SET search_path = vendo, pg_catalog;

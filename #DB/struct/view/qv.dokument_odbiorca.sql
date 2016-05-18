@@ -20,6 +20,3 @@ CREATE VIEW dokument_odbiorca AS
     tb_klient.wk_idwagi AS grupa_ii_odbiorcy,
     tb_klient.k_potrzeby AS opinie_o_odbiorcy
    FROM public.tb_klient;
-
-
-SET search_path = vendo, pg_catalog;

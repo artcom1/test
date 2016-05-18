@@ -22,6 +22,3 @@ BEGIN
  RETURN currval('mv.mvmultivalues_s');
 END; 
 $_$;
-
-
-SET search_path = mvv, pg_catalog;

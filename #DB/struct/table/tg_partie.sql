@@ -29,6 +29,3 @@ CREATE TABLE tg_partie (
     CONSTRAINT rozmiarowkacheck CHECK (((prt_rtowaru <> 128) OR ((rmp_idsposobu IS NOT NULL) AND (prt_idparent_rozm IS NULL)) OR ((rmp_idsposobu IS NULL) AND (prt_idparent_rozm IS NULL)))),
     CONSTRAINT rozmiarowkaelemcheck CHECK (((rmp_idsposobu IS NULL) OR ((prt_wplyw > 0) AND ((prt_idparent_rozm IS NOT NULL) OR (prt_rtowaru = 128))) OR ((prt_wplyw < 0) AND (prt_idparent_rozm IS NULL))))
 );
-
-
-SET search_path = gm, pg_catalog;

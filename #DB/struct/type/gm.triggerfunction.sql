@@ -7,6 +7,3 @@ CREATE TYPE triggerfunction AS ENUM (
     'MRPPALETALLOWCHANGEMMAG',
     'CHECKPZWARTOSCZEROILOSC'
 );
-
-
-SET search_path = gmr, pg_catalog;

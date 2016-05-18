@@ -25,7 +25,6 @@ COMMENT ON EXTENSION pgmp IS 'Multiple Precision Arithmetic extension';
 COMMENT ON EXTENSION vendo IS 'Funkcje vendo';
 
 
-SET search_path = gm, pg_catalog;
 
 --
 --

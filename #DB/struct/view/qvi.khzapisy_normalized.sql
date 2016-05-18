@@ -50,6 +50,3 @@ UNION
      JOIN public.kh_zapisyhead zk ON ((zk.zk_idzapisu = ze.zk_idzapisu)))
      JOIN public.kh_lata l ON ((l.ro_idroku = zk.ro_idroku)))
   WHERE ((ze.mc_miesiac IS NOT NULL) AND (ze.kt_idkontama IS NOT NULL));
-
-
-SET search_path = qv, pg_catalog;

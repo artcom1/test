@@ -17,6 +17,3 @@ CREATE TRIGGER gms_a_oniudsimwz AFTER INSERT OR DELETE OR UPDATE ON tm_simwz FOR
 --
 
 CREATE TRIGGER gms_a_oniuduse AFTER INSERT OR DELETE OR UPDATE ON tm_touse FOR EACH ROW EXECUTE PROCEDURE oniuduse();
-
-
-SET search_path = mv, pg_catalog;

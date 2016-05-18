@@ -77,6 +77,3 @@ CREATE INDEX gms_tm_simwz_i1 ON tm_simwz USING btree (sc_id);
 --
 
 CREATE INDEX gms_tm_touse_i1 ON tm_touse USING btree (sc_sid, sc_simid);
-
-
-SET search_path = mv, pg_catalog;

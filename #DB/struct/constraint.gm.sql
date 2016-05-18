@@ -35,6 +35,3 @@ ALTER TABLE ONLY tm_oznaczoneruchy
 
 ALTER TABLE ONLY tm_simulation
     ADD CONSTRAINT tm_simulation_pkey PRIMARY KEY (sim_id);
-
-
-SET search_path = gmr, pg_catalog;

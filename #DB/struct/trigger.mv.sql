@@ -65,6 +65,3 @@ CREATE TRIGGER z_datadeleted_insdel AFTER INSERT OR DELETE ON ts_multivalpage FO
 --
 
 CREATE TRIGGER z_datadeleted_insdel_mvs AFTER INSERT OR DELETE ON ts_multivalfiltr FOR EACH ROW EXECUTE PROCEDURE vendo.ondatachanged('-296', 'mvs_id');
-
-
-SET search_path = mvv, pg_catalog;

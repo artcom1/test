@@ -182,6 +182,3 @@ ALTER TABLE ONLY tm_touse
 
 ALTER TABLE ONLY tm_touse
     ADD CONSTRAINT tm_touse_ttm_idtowmag_fkey FOREIGN KEY (ttm_idtowmag) REFERENCES public.tg_towmag(ttm_idtowmag) ON UPDATE CASCADE ON DELETE CASCADE;
-
-
-SET search_path = mv, pg_catalog;

@@ -11,6 +11,7 @@ BEGIN
  
  _kwh_idheadu=(SELECT kwh_idheadu FROM tr_kkwnod WHERE kwe_idelemu=_kwe_idelemu);
  _kwh_idheadu=(SELECT kwh_idheadu FROM tr_kkwnod WHERE kwe_idelemu=_kwe_idelemu);
+ _kwh_idheadu=(SELECT kwh_idheadu FROM tr_kkwnod WHERE kwe_idelemu=_kwe_idelemu);
  
  IF (COALESCE(_kwh_idheadu,0)=0) THEN
   RETURN -2;

@@ -23,6 +23,3 @@ CREATE TABLE tg_postgreslog (
     plog_location text,
     plog_application_name text
 );
-
-
-SET search_path = qv, pg_catalog;

@@ -293,6 +293,3 @@ CREATE UNIQUE INDEX ts_slownikwykonania_mv_idx ON ts_slownikwykonania_mv USING b
 --
 
 CREATE UNIQUE INDEX ts_spedycje_mv_idx ON ts_spedycje_mv USING btree (sp_idspedytora);
-
-
-SET search_path = public, pg_catalog;

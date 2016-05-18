@@ -27,6 +27,3 @@ CREATE VIEW tv_vat_org AS
     tb_vat.v_ilosc0cena
    FROM tb_vat
   WHERE (tb_vat.v_isorg = ANY (ARRAY[0, 2]));
-
-
-SET search_path = vatviews, pg_catalog;

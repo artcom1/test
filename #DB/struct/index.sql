@@ -4299,6 +4299,3 @@ CREATE INDEX ts_zwrotgrzeczn_index1 ON ts_zwrotgrzeczn USING btree (zg_opiszwrot
 --
 
 CREATE UNIQUE INDEX tvs_services_i1 ON tvs_services USING btree (sv_code, sv_dbhash);
-
-
-SET search_path = qopt, pg_catalog;

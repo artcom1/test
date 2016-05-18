@@ -8,6 +8,3 @@ CREATE VIEW tv_simulationrez AS
    FROM tm_simulation
   WHERE (tm_simulation.sim_sid = COALESCE(vendo.tv_mysessionpid(), '-1'::integer))
   GROUP BY tm_simulation.sim_sid, tm_simulation.sim_simid, tm_simulation.rc_idruchurez;
-
-
-SET search_path = gmr, pg_catalog;

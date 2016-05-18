@@ -91,6 +91,3 @@ ALTER TABLE ONLY tm_simulation
 
 ALTER TABLE ONLY tm_simulation
     ADD CONSTRAINT tm_simulation_rc_idruchurez_fkey FOREIGN KEY (rc_idruchurez) REFERENCES public.tg_ruchy(rc_idruchu) ON UPDATE CASCADE ON DELETE CASCADE;
-
-
-SET search_path = gmr, pg_catalog;

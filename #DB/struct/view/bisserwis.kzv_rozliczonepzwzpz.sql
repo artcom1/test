@@ -4,6 +4,3 @@ CREATE VIEW kzv_rozliczonepzwzpz AS
    FROM public.tg_realizacjapzam rpzam
   WHERE ((rpzam.rm_powod = ANY (ARRAY[12, 13])) AND (rpzam.pz_idplanu IS NOT NULL))
   GROUP BY rpzam.pz_idplanu;
-
-
-SET search_path = gm, pg_catalog;

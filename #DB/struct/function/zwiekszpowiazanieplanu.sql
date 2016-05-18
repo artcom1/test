@@ -17,6 +17,3 @@ BEGIN
  RETURN 0;
 END;
 $_$;
-
-
-SET search_path = v, pg_catalog;

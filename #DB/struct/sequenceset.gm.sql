@@ -41,6 +41,3 @@ SELECT pg_catalog.setval('tm_oznaczoneruchy_s', 1, false);
 --
 
 SELECT pg_catalog.setval('tm_simulation_s', 1, false);
-
-
-SET search_path = gmr, pg_catalog;

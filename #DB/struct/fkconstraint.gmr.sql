@@ -21,6 +21,3 @@ ALTER TABLE ONLY tg_planzleceniarozmelems
 
 ALTER TABLE ONLY tg_planzleceniarozmelems
     ADD CONSTRAINT tg_planzleceniarozmelems_ttw_idtowaru_pdx_fkey FOREIGN KEY (ttw_idtowaru_pdx) REFERENCES public.tg_towary(ttw_idtowaru) ON UPDATE CASCADE ON DELETE RESTRICT;
-
-
-SET search_path = gms, pg_catalog;

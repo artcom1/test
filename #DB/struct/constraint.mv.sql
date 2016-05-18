@@ -42,6 +42,3 @@ ALTER TABLE ONLY ts_mvzestaw
 
 ALTER TABLE ONLY ts_mvzestawelem
     ADD CONSTRAINT ts_mvzestawelem_pkey PRIMARY KEY (mvze_idelemu);
-
-
-SET search_path = mvv, pg_catalog;

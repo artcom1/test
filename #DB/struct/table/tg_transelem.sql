@@ -76,6 +76,3 @@ CREATE TABLE tg_transelem (
     tel_walutato integer,
     tel_new3flaga integer DEFAULT 0 NOT NULL
 );
-
-
-SET search_path = gm, pg_catalog;

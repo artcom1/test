@@ -3185,6 +3185,3 @@ ALTER TABLE ONLY tu_zalogowani
 
 ALTER TABLE ONLY tvs_services
     ADD CONSTRAINT tvs_services_pkey PRIMARY KEY (sv_id);
-
-
-SET search_path = qopt, pg_catalog;

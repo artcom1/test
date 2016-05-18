@@ -9,6 +9,3 @@ CREATE VIEW kkwhead AS
     tr_kkwhead.fm_idcentrali AS indexcentrali
    FROM public.tr_kkwhead
   WHERE (tr_kkwhead.th_rodzaj = 1);
-
-
-SET search_path = qvi, pg_catalog;

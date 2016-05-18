@@ -19,6 +19,3 @@ CREATE TABLE tg_realizacjapzam (
     rm_iloscfnadmiar numeric DEFAULT 0 NOT NULL,
     rm_seqno integer
 );
-
-
-SET search_path = bisserwis, pg_catalog;

@@ -343,6 +343,3 @@ ALTER TABLE ONLY ts_slownikwykonania_mv
 
 ALTER TABLE ONLY ts_spedycje_mv
     ADD CONSTRAINT ts_spedycje_mv_pkey PRIMARY KEY (nmv_id);
-
-
-SET search_path = public, pg_catalog;

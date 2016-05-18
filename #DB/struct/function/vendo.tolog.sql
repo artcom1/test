@@ -27,6 +27,3 @@ CREATE OR REPLACE FUNCTION
     AS $_$
  SELECT vendo.toLog($1,vendo.getTableType($2),$3);
 $_$;
-
-
-SET search_path = public, pg_catalog;

@@ -163,6 +163,3 @@ BEGIN
  RETURN TRUE;
 END;
 $$;
-
-
-SET search_path = gms, pg_catalog;

@@ -336,6 +336,3 @@ ALTER TABLE ONLY ts_slownikwykonania_mv
 
 ALTER TABLE ONLY ts_spedycje_mv
     ADD CONSTRAINT ts_spedycje_mv_sp_idspedytora_fkey FOREIGN KEY (sp_idspedytora) REFERENCES public.ts_spedycje(sp_idspedytora) ON UPDATE CASCADE ON DELETE CASCADE;
-
-
-SET search_path = public, pg_catalog;

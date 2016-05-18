@@ -28,6 +28,3 @@ ALTER TABLE ONLY tg_loglocks
 
 ALTER TABLE ONLY tg_logs
     ADD CONSTRAINT tg_logs_lt_tid_fkey FOREIGN KEY (lt_tid) REFERENCES tg_logtrans(lt_tid) ON UPDATE CASCADE ON DELETE CASCADE;
-
-
-SET search_path = vendo, pg_catalog;

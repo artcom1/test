@@ -10,6 +10,3 @@ CREATE TABLE tg_planzleceniarozmelems (
     pzw_mnoznikop numeric NOT NULL,
     CONSTRAINT gmr_tg_planzleceniarozmelems_c1 CHECK ((pzw_ilosczrealclosed <= pzw_ilosczreal))
 );
-
-
-SET search_path = gms, pg_catalog;

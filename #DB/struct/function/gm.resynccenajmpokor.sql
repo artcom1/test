@@ -49,6 +49,3 @@ BEGIN
  RETURN TRUE;
 END;
 $$;
-
-
-SET search_path = public, pg_catalog;

@@ -3,6 +3,3 @@ CREATE TYPE notifies AS (
 	dtype smallint,
 	id text
 );
-
-
-SET search_path = bisserwis, pg_catalog;

@@ -35,6 +35,3 @@ ALTER TABLE ONLY tg_logtrans
 
 ALTER TABLE ONLY tg_postgreslog
     ADD CONSTRAINT tg_postgreslog_pkey PRIMARY KEY (plog_session_id, plog_session_line_num);
-
-
-SET search_path = vat, pg_catalog;

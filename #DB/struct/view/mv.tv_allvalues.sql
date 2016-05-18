@@ -248,6 +248,3 @@ UNION ALL
     tr_pomiary_wykonanie_mv.pw_idpomiarukkw AS idref,
     'mvv.tr_pomiary_wykonanie_mv'::text AS tablename
    FROM mvv.tr_pomiary_wykonanie_mv;
-
-
-SET search_path = public, pg_catalog;

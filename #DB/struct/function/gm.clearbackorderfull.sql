@@ -12,6 +12,3 @@ BEGIN
  RETURN gm.clearBackOrder(_idelem);
 END;
 $_$;
-
-
-SET search_path = public, pg_catalog;

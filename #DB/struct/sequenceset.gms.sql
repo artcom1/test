@@ -53,6 +53,3 @@ SELECT pg_catalog.setval('tm_touse_s', 1, false);
 --
 
 SELECT pg_catalog.setval('tmp_sequence', 1, false);
-
-
-SET search_path = mv, pg_catalog;

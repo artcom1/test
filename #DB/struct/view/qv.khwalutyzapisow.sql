@@ -3,6 +3,3 @@ CREATE VIEW khwalutyzapisow AS
     w.nazwa_waluty,
     w.symbol_waluty
    FROM waluty w;
-
-
-SET search_path = qvi, pg_catalog;

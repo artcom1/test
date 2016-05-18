@@ -56,6 +56,3 @@ ALTER TABLE ONLY ts_mvzestawelem
 
 ALTER TABLE ONLY ts_mvzestawelem
     ADD CONSTRAINT ts_mvzestawelem_mvz_idzestawu_fkey FOREIGN KEY (mvz_idzestawu) REFERENCES ts_mvzestaw(mvz_idzestawu) ON UPDATE CASCADE ON DELETE CASCADE;
-
-
-SET search_path = mvv, pg_catalog;

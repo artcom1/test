@@ -47,6 +47,3 @@ CREATE INDEX gm_tm_simulation_i2 ON tm_simulation USING btree ((COALESCE(sim_sid
 --
 
 CREATE UNIQUE INDEX tg_rezstack_i1 ON tg_rezstack USING btree (rc_idruchu, rc_recver_new);
-
-
-SET search_path = gmr, pg_catalog;

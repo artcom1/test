@@ -115,6 +115,3 @@ UNION
      JOIN public.kh_konta kt ON ((kt.kt_idkonta = s.kt_idkonta)))
      JOIN public.kh_lata y ON ((y.ro_idroku = kt.ro_idroku)))
   WHERE ((s.mc_miesiac IS NOT NULL) AND ((s.wmm_valuerestwn <> (0)::numeric) OR (s.wmm_valuerestma <> (0)::numeric)));
-
-
-SET search_path = qv, pg_catalog;

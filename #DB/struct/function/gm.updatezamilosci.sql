@@ -5,7 +5,6 @@ CREATE OR REPLACE FUNCTION
 $$;
 
 
-SET search_path = public, pg_catalog;
 
 --
 --

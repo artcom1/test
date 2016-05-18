@@ -4,6 +4,3 @@ CREATE TYPE tm_ilosci AS (
 	lnull numeric,
 	l numeric
 );
-
-
-SET search_path = public, pg_catalog;

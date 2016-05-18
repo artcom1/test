@@ -17,6 +17,3 @@ CREATE VIEW towary AS
     public.nazwachodliwosc2((tg_towary.ttw_flaga & 6291456)) AS chodliwosc2,
     public.getrodzajkartytowaru(tg_towary.ttw_flaga, tg_towary.ttw_usluga) AS rodzajkartytowarowej
    FROM public.tg_towary;
-
-
-SET search_path = qvi, pg_catalog;
